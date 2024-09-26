@@ -1,0 +1,25 @@
+xst -intstyle ise -ifn "C:/TTVM/decoder2to4/de2to4.xst" -ofn "C:/TTVM/decoder2to4/de2to4.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim de2to4.ngc de2to4_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 de2to4.ngc de2to4.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o de2to4_map.ncd de2to4.ngd de2to4.pcf 
+par -w -intstyle ise -ol high -t 1 de2to4_map.ncd de2to4.ncd de2to4.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml de2to4.twx de2to4.ncd -o de2to4.twr de2to4.pcf 
+bitgen -intstyle ise -f de2to4.ut de2to4.ncd 
+xst -intstyle ise -ifn "C:/TTVM/decoder2to4/de2to4.xst" -ofn "C:/TTVM/decoder2to4/de2to4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kit.ucf -p xc3s500e-fg320-5 de2to4.ngc de2to4.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o de2to4_map.ncd de2to4.ngd de2to4.pcf 
+par -w -intstyle ise -ol high -t 1 de2to4_map.ncd de2to4.ncd de2to4.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml de2to4.twx de2to4.ncd -o de2to4.twr de2to4.pcf -ucf kit.ucf 
+bitgen -intstyle ise -f de2to4.ut de2to4.ncd 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim de2to4.ngc de2to4_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kit.ucf -p xc3s500e-fg320-5 de2to4.ngc de2to4.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o de2to4_map.ncd de2to4.ngd de2to4.pcf 
+par -w -intstyle ise -ol high -t 1 de2to4_map.ncd de2to4.ncd de2to4.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml de2to4.twx de2to4.ncd -o de2to4.twr de2to4.pcf -ucf kit.ucf 
+bitgen -intstyle ise -f de2to4.ut de2to4.ncd 
+xst -intstyle ise -ifn "C:/TTVM/decoder2to4/de2to4.xst" -ofn "C:/TTVM/decoder2to4/de2to4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kit.ucf -p xc3s500e-fg320-5 de2to4.ngc de2to4.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o de2to4_map.ncd de2to4.ngd de2to4.pcf 
+par -w -intstyle ise -ol high -t 1 de2to4_map.ncd de2to4.ncd de2to4.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml de2to4.twx de2to4.ncd -o de2to4.twr de2to4.pcf -ucf kit.ucf 
+bitgen -intstyle ise -f de2to4.ut de2to4.ncd 

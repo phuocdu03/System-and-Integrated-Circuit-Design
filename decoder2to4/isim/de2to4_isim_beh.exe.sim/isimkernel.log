@@ -1,0 +1,28 @@
+Command line:
+   de2to4_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49344
+
+Tue Oct 24 10:24:03 2023
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5150.91 Meg
+
+ Total Signals          : 17
+ Total Nets             : 20
+ Total Signal Drivers   : 9
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 10
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 100
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 5150.91 Meg
+
+Tue Oct 24 10:24:12 2023
+

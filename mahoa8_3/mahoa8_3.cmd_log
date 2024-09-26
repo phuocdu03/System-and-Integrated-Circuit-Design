@@ -1,0 +1,33 @@
+xst -intstyle ise -ifn "D:/TTVM/mahoa8_3/mahoa8_3.xst" -ofn "D:/TTVM/mahoa8_3/mahoa8_3.syr" 
+xst -intstyle ise -ifn "D:/TTVM/mahoa8_3/mahoa8_3.xst" -ofn "D:/TTVM/mahoa8_3/mahoa8_3.syr" 
+xst -intstyle ise -ifn "D:/TTVM/mahoa8_3/mahoa8_3.xst" -ofn "D:/TTVM/mahoa8_3/mahoa8_3.syr" 
+xst -intstyle ise -ifn "D:/TTVM/mahoa8_3/mahoa8_3.xst" -ofn "D:/TTVM/mahoa8_3/mahoa8_3.syr" 
+xst -intstyle ise -ifn "D:/TTVM/mahoa8_3/mahoa8_3.xst" -ofn "D:/TTVM/mahoa8_3/mahoa8_3.syr" 
+xst -intstyle ise -ifn "D:/TTVM/mahoa8_3/mahoa8_3.xst" -ofn "D:/TTVM/mahoa8_3/mahoa8_3.syr" 
+xst -intstyle ise -ifn "D:/TTVM/mahoa8_3/mahoa8_3.xst" -ofn "D:/TTVM/mahoa8_3/mahoa8_3.syr" 
+xst -intstyle ise -ifn "D:/TTVM/mahoa8_3/mahoa8_3.xst" -ofn "D:/TTVM/mahoa8_3/mahoa8_3.syr" 
+xst -intstyle ise -ifn "D:/TTVM/mahoa8_3/mahoa8_3.xst" -ofn "D:/TTVM/mahoa8_3/mahoa8_3.syr" 
+xst -intstyle ise -ifn "D:/TTVM/mahoa8_3/mahoa8_3.xst" -ofn "D:/TTVM/mahoa8_3/mahoa8_3.syr" 
+xst -intstyle ise -ifn "D:/TTVM/mahoa8_3/mahoa8_3.xst" -ofn "D:/TTVM/mahoa8_3/mahoa8_3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 mahoa8_3.ngc mahoa8_3.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o mahoa8_3_map.ncd mahoa8_3.ngd mahoa8_3.pcf 
+par -w -intstyle ise -ol high -t 1 mahoa8_3_map.ncd mahoa8_3.ncd mahoa8_3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mahoa8_3.twx mahoa8_3.ncd -o mahoa8_3.twr mahoa8_3.pcf -ucf hi.ucf 
+bitgen -intstyle ise -f mahoa8_3.ut mahoa8_3.ncd 
+xst -intstyle ise -ifn "D:/TTVM/mahoa8_3/mahoa8_3.xst" -ofn "D:/TTVM/mahoa8_3/mahoa8_3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 mahoa8_3.ngc mahoa8_3.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o mahoa8_3_map.ncd mahoa8_3.ngd mahoa8_3.pcf 
+par -w -intstyle ise -ol high -t 1 mahoa8_3_map.ncd mahoa8_3.ncd mahoa8_3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mahoa8_3.twx mahoa8_3.ncd -o mahoa8_3.twr mahoa8_3.pcf 
+bitgen -intstyle ise -f mahoa8_3.ut mahoa8_3.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hihi.ucf -p xc3s500e-fg320-5 mahoa8_3.ngc mahoa8_3.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o mahoa8_3_map.ncd mahoa8_3.ngd mahoa8_3.pcf 
+par -w -intstyle ise -ol high -t 1 mahoa8_3_map.ncd mahoa8_3.ncd mahoa8_3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mahoa8_3.twx mahoa8_3.ncd -o mahoa8_3.twr mahoa8_3.pcf -ucf hihi.ucf 
+bitgen -intstyle ise -f mahoa8_3.ut mahoa8_3.ncd 
+xst -intstyle ise -ifn "D:/TTVM/mahoa8_3/mahoa8_3.xst" -ofn "D:/TTVM/mahoa8_3/mahoa8_3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 mahoa8_3.ngc mahoa8_3.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o mahoa8_3_map.ncd mahoa8_3.ngd mahoa8_3.pcf 
+par -w -intstyle ise -ol high -t 1 mahoa8_3_map.ncd mahoa8_3.ncd mahoa8_3.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mahoa8_3.twx mahoa8_3.ncd -o mahoa8_3.twr mahoa8_3.pcf 
+bitgen -intstyle ise -f mahoa8_3.ut mahoa8_3.ncd 

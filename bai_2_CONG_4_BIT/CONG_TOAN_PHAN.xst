@@ -1,0 +1,5 @@
+set -tmpdir "C:/KyThuatmt/TTViMach/TTVM/bai_2_CONG_4_BIT/xst/projnav.tmp"
+set -xsthdpdir "C:/KyThuatmt/TTViMach/TTVM/bai_2_CONG_4_BIT/xst"
+elaborate
+-ifn CONG_TOAN_PHAN.prj
+-ifmt mixed

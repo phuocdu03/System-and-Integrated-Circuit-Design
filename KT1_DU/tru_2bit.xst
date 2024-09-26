@@ -1,0 +1,5 @@
+set -tmpdir "C:/TTVM/KT1_DU/xst/projnav.tmp"
+set -xsthdpdir "C:/TTVM/KT1_DU/xst"
+elaborate
+-ifn tru_2bit.prj
+-ifmt mixed

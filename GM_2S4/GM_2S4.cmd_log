@@ -1,0 +1,24 @@
+xst -intstyle ise -ifn "D:/TTVM/GM_2S4/GM_2S4.xst" -ofn "D:/TTVM/GM_2S4/GM_2S4.syr" 
+xst -intstyle ise -ifn "D:/TTVM/GM_2S4/GM_2S4.xst" -ofn "D:/TTVM/GM_2S4/GM_2S4.syr" 
+xst -intstyle ise -ifn "D:/TTVM/GM_2S4/GM_2S4.xst" -ofn "D:/TTVM/GM_2S4/GM_2S4.syr" 
+xst -intstyle ise -ifn "D:/TTVM/GM_2S4/GM_2S4.xst" -ofn "D:/TTVM/GM_2S4/GM_2S4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 GM_2S4.ngc GM_2S4.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o GM_2S4_map.ncd GM_2S4.ngd GM_2S4.pcf 
+par -w -intstyle ise -ol high -mt off GM_2S4_map.ncd GM_2S4.ncd GM_2S4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GM_2S4.twx GM_2S4.ncd -o GM_2S4.twr GM_2S4.pcf 
+xst -intstyle ise -ifn "D:/TTVM/GM_2S4/GM_2S4.xst" -ofn "D:/TTVM/GM_2S4/GM_2S4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 GM_2S4.ngc GM_2S4.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 GM_2S4.ngc GM_2S4.ngd  
+xst -intstyle ise -ifn "D:/TTVM/GM_2S4/GM_2S4.xst" -ofn "D:/TTVM/GM_2S4/GM_2S4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 GM_2S4.ngc GM_2S4.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 GM_2S4.ngc GM_2S4.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o GM_2S4_map.ncd GM_2S4.ngd GM_2S4.pcf 
+par -w -intstyle ise -ol high -t 1 GM_2S4_map.ncd GM_2S4.ncd GM_2S4.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml GM_2S4.twx GM_2S4.ncd -o GM_2S4.twr GM_2S4.pcf -ucf hi.ucf 
+bitgen -intstyle ise -f GM_2S4.ut GM_2S4.ncd 
+xst -intstyle ise -ifn "D:/TTVM/GM_2S4/GM_2S4.xst" -ofn "D:/TTVM/GM_2S4/GM_2S4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 GM_2S4.ngc GM_2S4.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o GM_2S4_map.ncd GM_2S4.ngd GM_2S4.pcf 
+par -w -intstyle ise -ol high -t 1 GM_2S4_map.ncd GM_2S4.ncd GM_2S4.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml GM_2S4.twx GM_2S4.ncd -o GM_2S4.twr GM_2S4.pcf -ucf hi.ucf 
+bitgen -intstyle ise -f GM_2S4.ut GM_2S4.ncd 

@@ -1,0 +1,4 @@
+verilog work "chia_xung.v"
+verilog work "tao_xung.v"
+verilog work "test_1.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

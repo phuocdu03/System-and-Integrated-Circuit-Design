@@ -1,0 +1,26 @@
+xst -intstyle ise -ifn "D:/TTVM/MUX10TO1/MUX10TO1.xst" -ofn "D:/TTVM/MUX10TO1/MUX10TO1.syr" 
+xst -intstyle ise -ifn "D:/TTVM/MUX10TO1/MUX10TO1.xst" -ofn "D:/TTVM/MUX10TO1/MUX10TO1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 MUX10TO1.ngc MUX10TO1.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o MUX10TO1_map.ncd MUX10TO1.ngd MUX10TO1.pcf 
+par -w -intstyle ise -ol high -t 1 MUX10TO1_map.ncd MUX10TO1.ncd MUX10TO1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MUX10TO1.twx MUX10TO1.ncd -o MUX10TO1.twr MUX10TO1.pcf -ucf hi.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 MUX10TO1.ngc MUX10TO1.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o MUX10TO1_map.ncd MUX10TO1.ngd MUX10TO1.pcf 
+par -w -intstyle ise -ol high -t 1 MUX10TO1_map.ncd MUX10TO1.ncd MUX10TO1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MUX10TO1.twx MUX10TO1.ncd -o MUX10TO1.twr MUX10TO1.pcf -ucf hi.ucf 
+xst -intstyle ise -ifn "D:/TTVM/MUX10TO1/MUX10TO1.xst" -ofn "D:/TTVM/MUX10TO1/MUX10TO1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 MUX10TO1.ngc MUX10TO1.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o MUX10TO1_map.ncd MUX10TO1.ngd MUX10TO1.pcf 
+par -w -intstyle ise -ol high -t 1 MUX10TO1_map.ncd MUX10TO1.ncd MUX10TO1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MUX10TO1.twx MUX10TO1.ncd -o MUX10TO1.twr MUX10TO1.pcf -ucf hi.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 MUX10TO1.ngc MUX10TO1.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o MUX10TO1_map.ncd MUX10TO1.ngd MUX10TO1.pcf 
+par -w -intstyle ise -ol high -t 1 MUX10TO1_map.ncd MUX10TO1.ncd MUX10TO1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MUX10TO1.twx MUX10TO1.ncd -o MUX10TO1.twr MUX10TO1.pcf -ucf hi.ucf 
+bitgen -intstyle ise -f MUX10TO1.ut MUX10TO1.ncd 
+xst -intstyle ise -ifn "/home/ise/TTVM/MUX10TO1/MUX10TO1.xst" -ofn "/home/ise/TTVM/MUX10TO1/MUX10TO1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 MUX10TO1.ngc MUX10TO1.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o MUX10TO1_map.ncd MUX10TO1.ngd MUX10TO1.pcf 
+par -w -intstyle ise -ol high -t 1 MUX10TO1_map.ncd MUX10TO1.ncd MUX10TO1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml MUX10TO1.twx MUX10TO1.ncd -o MUX10TO1.twr MUX10TO1.pcf -ucf hi.ucf 
+bitgen -intstyle ise -f MUX10TO1.ut MUX10TO1.ncd 

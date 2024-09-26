@@ -1,0 +1,194 @@
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 
+xst -intstyle ise -ifn "C:/FPGA/CounterTop/CounterTop.xst" -ofn "C:/FPGA/CounterTop/CounterTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/FPGA/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterTop.ngc CounterTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterTop_map.ncd CounterTop.ngd CounterTop.pcf 
+par -w -intstyle ise -ol high -t 1 CounterTop_map.ncd CounterTop.ncd CounterTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterTop.twx CounterTop.ncd -o CounterTop.twr CounterTop.pcf 
+bitgen -intstyle ise -f CounterTop.ut CounterTop.ncd 

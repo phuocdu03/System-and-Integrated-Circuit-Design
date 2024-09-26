@@ -1,0 +1,4 @@
+verilog work "../ClockDivision/ClkDiv.v"
+verilog work "../Dem_xuong_4bit/Dem_xuong_4bit.v"
+verilog work "../ClockDivision/ClockDivision.v"
+verilog work "CounterDown.v"

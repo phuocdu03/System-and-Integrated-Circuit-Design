@@ -1,0 +1,275 @@
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-5 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-5 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-4 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-4 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-4 TONG.ngc TONG.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-4 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-4 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-5 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-5 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-5 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-5 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-5 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-5 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-5 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-5 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-5 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-5 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-5 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-5 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-5 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-5 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-5 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-5 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-5 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-5 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-5 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-5 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-5 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-5 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-5 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-5 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-5 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-5 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-4 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-4 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-4 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/TONG.xst" -ofn "D:/TTVM/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-4 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "C:/Users/ACER/Downloads/DEMLEN4BIT/TONG.xst" -ofn "C:/Users/ACER/Downloads/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-4 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "C:/Users/ACER/Downloads/DEMLEN4BIT/TONG.xst" -ofn "C:/Users/ACER/Downloads/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-4 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "C:/Users/ACER/Downloads/DEMLEN4BIT/TONG.xst" -ofn "C:/Users/ACER/Downloads/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-4 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-4 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "C:/Users/ACER/Downloads/DEMLEN4BIT/TONG.xst" -ofn "C:/Users/ACER/Downloads/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-4 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-4 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "C:/Users/ACER/Downloads/DEMLEN4BIT/TONG.xst" -ofn "C:/Users/ACER/Downloads/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-4 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "C:/Users/ACER/Downloads/DEMLEN4BIT/TONG.xst" -ofn "C:/Users/ACER/Downloads/DEMLEN4BIT/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-4 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "/home/ise/TTVM/hieuduydeptrai/TONG.xst" -ofn "/home/ise/TTVM/hieuduydeptrai/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-4 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "/home/ise/TTVM/hieuduydeptrai/TONG.xst" -ofn "/home/ise/TTVM/hieuduydeptrai/TONG.syr" 
+xst -intstyle ise -ifn "/home/ise/TTVM/hieuduydeptrai/TONG.xst" -ofn "/home/ise/TTVM/hieuduydeptrai/TONG.syr" 
+xst -intstyle ise -ifn "/home/ise/TTVM/hieuduydeptrai/TONG.xst" -ofn "/home/ise/TTVM/hieuduydeptrai/TONG.syr" 
+xst -intstyle ise -ifn "/home/ise/TTVM/hieuduydeptrai/TONG.xst" -ofn "/home/ise/TTVM/hieuduydeptrai/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-4 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 
+xst -intstyle ise -ifn "/home/ise/TTVM/hieuduydeptrai/TONG.xst" -ofn "/home/ise/TTVM/hieuduydeptrai/TONG.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hehe.ucf -p xc3s500e-fg320-4 TONG.ngc TONG.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TONG_map.ncd TONG.ngd TONG.pcf 
+par -w -intstyle ise -ol high -t 1 TONG_map.ncd TONG.ncd TONG.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TONG.twx TONG.ncd -o TONG.twr TONG.pcf -ucf hehe.ucf 
+bitgen -intstyle ise -f TONG.ut TONG.ncd 

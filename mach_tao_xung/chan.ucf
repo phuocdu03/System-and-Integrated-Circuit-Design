@@ -1,0 +1,6 @@
+# ==== Clock inputs (CLK) ====
+NET "clki" LOC = "C9" | IOSTANDARD = LVCMOS33;
+
+NET "clko[0]" LOC = "C11" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8;
+NET "clko[1]" LOC = "D11" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8;
+NET "clko[2]" LOC = "E9" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8;

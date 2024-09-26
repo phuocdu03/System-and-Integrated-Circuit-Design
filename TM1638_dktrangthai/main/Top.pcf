@@ -1,0 +1,26 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Dec 05 09:41:56 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "rs" LOCATE = SITE "H13" LEVEL 1;
+COMP "clk" LOCATE = SITE "F8" LEVEL 1;
+COMP "dio" LOCATE = SITE "C7" LEVEL 1;
+COMP "stb" LOCATE = SITE "E8" LEVEL 1;
+COMP "btn1" LOCATE = SITE "L13" LEVEL 1;
+PIN btn1_pin<0> = BEL "btn1" PINNAME PAD;
+PIN "btn1_pin<0>" CLOCK_DEDICATED_ROUTE;
+COMP "btn2" LOCATE = SITE "L14" LEVEL 1;
+PIN btn2_pin<0> = BEL "btn2" PINNAME PAD;
+PIN "btn2_pin<0>" CLOCK_DEDICATED_ROUTE;
+COMP "btn3" LOCATE = SITE "H18" LEVEL 1;
+PIN btn3_pin<0> = BEL "btn3" PINNAME PAD;
+PIN "btn3_pin<0>" CLOCK_DEDICATED_ROUTE;
+COMP "btn4" LOCATE = SITE "N17" LEVEL 1;
+PIN btn4_pin<0> = BEL "btn4" PINNAME PAD;
+PIN "btn4_pin<0>" CLOCK_DEDICATED_ROUTE;
+COMP "clk_50M" LOCATE = SITE "C9" LEVEL 1;
+NET "btn4_BUFGP/IBUFG" BEL "btn4_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+NET "clk_50M_BUFGP/IBUFG" BEL "clk_50M_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

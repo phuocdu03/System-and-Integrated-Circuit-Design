@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "C:/TTVM/mux4to1/mux4to1.xst" -ofn "C:/TTVM/mux4to1/mux4to1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 mux4to1.ngc mux4to1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mux4to1_map.ncd mux4to1.ngd mux4to1.pcf 
+par -w -intstyle ise -ol high -t 1 mux4to1_map.ncd mux4to1.ncd mux4to1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mux4to1.twx mux4to1.ncd -o mux4to1.twr mux4to1.pcf 
+bitgen -intstyle ise -f mux4to1.ut mux4to1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 mux4to1.ngc mux4to1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mux4to1_map.ncd mux4to1.ngd mux4to1.pcf 
+par -w -intstyle ise -ol high -t 1 mux4to1_map.ncd mux4to1.ncd mux4to1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mux4to1.twx mux4to1.ncd -o mux4to1.twr mux4to1.pcf 
+bitgen -intstyle ise -f mux4to1.ut mux4to1.ncd 
+xst -intstyle ise -ifn "C:/TTVM/mux4to1/mux4to1.xst" -ofn "C:/TTVM/mux4to1/mux4to1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc chan.ucf -p xc3s500e-fg320-4 mux4to1.ngc mux4to1.ngd  
+xst -intstyle ise -ifn "C:/TTVM/mux4to1/mux4to1.xst" -ofn "C:/TTVM/mux4to1/mux4to1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc chan.ucf -p xc3s500e-fg320-4 mux4to1.ngc mux4to1.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc chan.ucf -p xc3s500e-fg320-4 mux4to1.ngc mux4to1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mux4to1_map.ncd mux4to1.ngd mux4to1.pcf 
+par -w -intstyle ise -ol high -t 1 mux4to1_map.ncd mux4to1.ncd mux4to1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mux4to1.twx mux4to1.ncd -o mux4to1.twr mux4to1.pcf -ucf chan.ucf 
+bitgen -intstyle ise -f mux4to1.ut mux4to1.ncd 

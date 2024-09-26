@@ -1,0 +1,6 @@
+verilog work "../ClockDivision/ClkDiv.v"
+verilog work "../Dem_len_4bit/Dem_len_4bit.v"
+verilog work "../ClockDivision/ClockDivision.v"
+verilog work "CounterTop.v"
+verilog work "Test.v"
+verilog work "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/FPGA/TestTM1638/TestTop.xst" -ofn "C:/FPGA/TestTM1638/TestTop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Kit.ucf -p xc3s500e-fg320-4 TestTop.ngc TestTop.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o TestTop_map.ncd TestTop.ngd TestTop.pcf 
+par -w -intstyle ise -ol high -t 1 TestTop_map.ncd TestTop.ncd TestTop.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TestTop.twx TestTop.ncd -o TestTop.twr TestTop.pcf -ucf Kit.ucf 
+bitgen -intstyle ise -f TestTop.ut TestTop.ncd 

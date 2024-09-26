@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\TTVM\sang_don\main.ncd
+OUTFILE=C:\TTVM\sang_don\main.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\TTVM\sang_don
+LICENSE=ISE
+USER_INFO=212831385_0_0_961

@@ -1,0 +1,838 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Reading design: Top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Top"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : Top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "sangdon.v" in library work
+Compiling verilog file "sangdich.v" in library work
+Module <sangdon> compiled
+Compiling verilog file "LedTatDan.v" in library work
+Module <sangdich> compiled
+Compiling verilog file "DivClock.v" in library work
+Module <LedSangDan> compiled
+Compiling verilog file "dich.v" in library work
+Module <DivClock> compiled
+Compiling verilog file "TestTM1638.v" in library work
+Module <dich> compiled
+Compiling verilog file "Tat_Dan_Top.v" in library work
+Module <TM1638> compiled
+Compiling verilog file "TatDanTop.v" in library work
+Module <Tat_Dan_Top> compiled
+Compiling verilog file "sang_don_top.v" in library work
+Module <SangDanTop> compiled
+Compiling verilog file "sang_dich_top.v" in library work
+Module <sang_don_top> compiled
+Compiling verilog file "ClockDiv.v" in library work
+Module <sang_dich_top> compiled
+Compiling verilog file "TestTop.v" in library work
+Module <ClockDiv> compiled
+Module <Top> compiled
+No errors in compilation
+Analysis of file <"Top.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <Top> in library <work>.
+
+Analyzing hierarchy for module <ClockDiv> in library <work>.
+
+Analyzing hierarchy for module <Tat_Dan_Top> in library <work>.
+
+Analyzing hierarchy for module <SangDanTop> in library <work>.
+
+Analyzing hierarchy for module <sang_don_top> in library <work>.
+
+Analyzing hierarchy for module <sang_dich_top> in library <work>.
+
+Analyzing hierarchy for module <TM1638> in library <work>.
+
+Analyzing hierarchy for module <DivClock> in library <work>.
+
+Analyzing hierarchy for module <dich> in library <work>.
+
+Analyzing hierarchy for module <LedSangDan> in library <work>.
+
+Analyzing hierarchy for module <sangdon> in library <work>.
+
+Analyzing hierarchy for module <sangdich> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <Top>.
+Module <Top> is correct for synthesis.
+ 
+Analyzing module <ClockDiv> in library <work>.
+Module <ClockDiv> is correct for synthesis.
+ 
+Analyzing module <Tat_Dan_Top> in library <work>.
+Module <Tat_Dan_Top> is correct for synthesis.
+ 
+Analyzing module <DivClock> in library <work>.
+Module <DivClock> is correct for synthesis.
+ 
+Analyzing module <dich> in library <work>.
+Module <dich> is correct for synthesis.
+ 
+Analyzing module <SangDanTop> in library <work>.
+Module <SangDanTop> is correct for synthesis.
+ 
+Analyzing module <LedSangDan> in library <work>.
+Module <LedSangDan> is correct for synthesis.
+ 
+Analyzing module <sang_don_top> in library <work>.
+Module <sang_don_top> is correct for synthesis.
+ 
+Analyzing module <sangdon> in library <work>.
+Module <sangdon> is correct for synthesis.
+ 
+Analyzing module <sang_dich_top> in library <work>.
+Module <sang_dich_top> is correct for synthesis.
+ 
+Analyzing module <sangdich> in library <work>.
+Module <sangdich> is correct for synthesis.
+ 
+Analyzing module <TM1638> in library <work>.
+	Calling function <sseg>.
+	Calling function <sseg>.
+	Calling function <sseg>.
+	Calling function <sseg>.
+	Calling function <sseg>.
+	Calling function <sseg>.
+	Calling function <sseg>.
+	Calling function <sseg>.
+Module <TM1638> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <ClockDiv>.
+    Related source file is "ClockDiv.v".
+    Found 27-bit up counter for signal <r_reg>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <ClockDiv> synthesized.
+
+
+Synthesizing Unit <TM1638>.
+    Related source file is "TestTM1638.v".
+WARNING:Xst:1872 - Variable <i> is used but never assigned.
+    Found 1-bit register for signal <clk>.
+    Found 1-bit register for signal <dio>.
+    Found 1-bit register for signal <stb>.
+    Found 8-bit register for signal <command1>.
+    Found 33-bit comparator greater for signal <command1$cmp_gt0000> created at line 108.
+    Found 33-bit comparator less for signal <command1$cmp_lt0000> created at line 108.
+    Found 8-bit register for signal <command2>.
+    Found 33-bit comparator greater for signal <command2$cmp_gt0000> created at line 120.
+    Found 33-bit comparator less for signal <command2$cmp_lt0000> created at line 120.
+    Found 8-bit register for signal <command3>.
+    Found 33-bit comparator greater for signal <command3$cmp_gt0000> created at line 140.
+    Found 33-bit comparator less for signal <command3$cmp_lt0000> created at line 140.
+    Found 32-bit register for signal <cs>.
+    Found 32-bit adder for signal <cs$add0000> created at line 153.
+    Found 128-bit register for signal <leddatahold>.
+    Found 33-bit comparator greater for signal <leddatahold$cmp_gt0000> created at line 127.
+    Found 33-bit comparator less for signal <leddatahold$cmp_lt0000> created at line 127.
+    Found 33-bit comparator greatequal for signal <old_cs_10$cmp_ge0000> created at line 108.
+    Found 33-bit comparator greatequal for signal <old_cs_10$cmp_ge0001> created at line 120.
+    Found 33-bit comparator greatequal for signal <old_cs_10$cmp_ge0002> created at line 127.
+    Found 33-bit comparator greatequal for signal <old_cs_10$cmp_ge0003> created at line 140.
+    Found 33-bit comparator lessequal for signal <old_cs_10$cmp_le0000> created at line 108.
+    Found 33-bit comparator lessequal for signal <old_cs_10$cmp_le0001> created at line 120.
+    Found 33-bit comparator lessequal for signal <old_cs_10$cmp_le0002> created at line 127.
+    Found 33-bit comparator lessequal for signal <old_cs_10$cmp_le0003> created at line 140.
+    Summary:
+	inferred 187 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred  16 Comparator(s).
+Unit <TM1638> synthesized.
+
+
+Synthesizing Unit <DivClock>.
+    Related source file is "DivClock.v".
+    Found 1-bit register for signal <clk_out>.
+    Found 46-bit comparator equal for signal <clk_out$cmp_eq0000> created at line 35.
+    Found 46-bit adder for signal <r_next$addsub0000> created at line 39.
+    Found 46-bit comparator equal for signal <r_next$cmp_eq0000> created at line 39.
+    Found 46-bit register for signal <r_reg>.
+    Summary:
+	inferred  47 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+Unit <DivClock> synthesized.
+
+
+Synthesizing Unit <dich>.
+    Related source file is "dich.v".
+    Found 8-bit register for signal <d>.
+    Found 8-bit comparator lessequal for signal <d$cmp_le0000> created at line 32.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <dich> synthesized.
+
+
+Synthesizing Unit <LedSangDan>.
+    Related source file is "LedTatDan.v".
+    Found 8-bit register for signal <r_reg>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <LedSangDan> synthesized.
+
+
+Synthesizing Unit <sangdon>.
+    Related source file is "sangdon.v".
+    Found 3-bit subtractor for signal <k_n$addsub0000> created at line 62.
+    Found 3-bit register for signal <k_r>.
+    Found 3-bit adder for signal <n_n$addsub0000> created at line 56.
+    Found 3-bit register for signal <n_r>.
+    Found 8-bit register for signal <v_r>.
+    Found 3-bit comparator greater for signal <z_n$cmp_gt0000> created at line 58.
+    Found 3-bit comparator less for signal <z_n$cmp_lt0000> created at line 53.
+    Found 8-bit register for signal <z_r>.
+    Summary:
+	inferred  22 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+Unit <sangdon> synthesized.
+
+
+Synthesizing Unit <sangdich>.
+    Related source file is "sangdich.v".
+    Found 8-bit register for signal <r_reg>.
+Unit <sangdich> synthesized.
+
+
+Synthesizing Unit <Tat_Dan_Top>.
+    Related source file is "Tat_Dan_Top.v".
+Unit <Tat_Dan_Top> synthesized.
+
+
+Synthesizing Unit <SangDanTop>.
+    Related source file is "TatDanTop.v".
+Unit <SangDanTop> synthesized.
+
+
+Synthesizing Unit <sang_don_top>.
+    Related source file is "sang_don_top.v".
+Unit <sang_don_top> synthesized.
+
+
+Synthesizing Unit <sang_dich_top>.
+    Related source file is "sang_dich_top.v".
+Unit <sang_dich_top> synthesized.
+
+
+Synthesizing Unit <Top>.
+    Related source file is "TestTop.v".
+WARNING:Xst:737 - Found 8-bit latch for signal <G>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+Unit <Top> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 7
+ 3-bit adder                                           : 1
+ 3-bit subtractor                                      : 1
+ 32-bit adder                                          : 1
+ 46-bit adder                                          : 4
+# Counters                                             : 1
+ 27-bit up counter                                     : 1
+# Registers                                            : 23
+ 1-bit register                                        : 7
+ 128-bit register                                      : 1
+ 3-bit register                                        : 2
+ 32-bit register                                       : 1
+ 46-bit register                                       : 4
+ 8-bit register                                        : 8
+# Latches                                              : 1
+ 8-bit latch                                           : 1
+# Comparators                                          : 27
+ 3-bit comparator greater                              : 1
+ 3-bit comparator less                                 : 1
+ 33-bit comparator greatequal                          : 4
+ 33-bit comparator greater                             : 4
+ 33-bit comparator less                                : 4
+ 33-bit comparator lessequal                           : 4
+ 46-bit comparator equal                               : 8
+ 8-bit comparator lessequal                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1293 - FF/Latch <command1_7> has a constant value of 0 in block <tm>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <leddatahold_121> (without init value) has a constant value of 0 in block <tm>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <leddatahold_122> (without init value) has a constant value of 0 in block <tm>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <leddatahold_123> (without init value) has a constant value of 0 in block <tm>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <leddatahold_124> (without init value) has a constant value of 0 in block <tm>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <leddatahold_125> (without init value) has a constant value of 0 in block <tm>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <leddatahold_126> (without init value) has a constant value of 0 in block <tm>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <leddatahold_127> (without init value) has a constant value of 0 in block <tm>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2404 -  FFs/Latches <leddatahold<127:127>> (without init value) have a constant value of 0 in block <TM1638>.
+WARNING:Xst:2404 -  FFs/Latches <leddatahold<126:126>> (without init value) have a constant value of 0 in block <TM1638>.
+WARNING:Xst:2404 -  FFs/Latches <leddatahold<125:125>> (without init value) have a constant value of 0 in block <TM1638>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 7
+ 3-bit adder                                           : 1
+ 3-bit subtractor                                      : 1
+ 32-bit adder                                          : 1
+ 46-bit adder                                          : 4
+# Counters                                             : 1
+ 27-bit up counter                                     : 1
+# Registers                                            : 418
+ Flip-Flops                                            : 418
+# Latches                                              : 1
+ 8-bit latch                                           : 1
+# Comparators                                          : 27
+ 3-bit comparator greater                              : 1
+ 3-bit comparator less                                 : 1
+ 33-bit comparator greatequal                          : 4
+ 33-bit comparator greater                             : 4
+ 33-bit comparator less                                : 4
+ 33-bit comparator lessequal                           : 4
+ 46-bit comparator equal                               : 8
+ 8-bit comparator lessequal                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1293 - FF/Latch <command1_7> has a constant value of 0 in block <TM1638>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <leddatahold_121> (without init value) has a constant value of 0 in block <TM1638>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <leddatahold_122> (without init value) has a constant value of 0 in block <TM1638>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <leddatahold_123> (without init value) has a constant value of 0 in block <TM1638>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <leddatahold_124> (without init value) has a constant value of 0 in block <TM1638>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <clock/r_reg_6> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clock/r_reg_7> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clock/r_reg_8> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clock/r_reg_9> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clock/r_reg_10> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clock/r_reg_11> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clock/r_reg_12> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clock/r_reg_13> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clock/r_reg_14> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clock/r_reg_15> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clock/r_reg_16> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clock/r_reg_17> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clock/r_reg_18> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clock/r_reg_19> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clock/r_reg_20> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clock/r_reg_21> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clock/r_reg_22> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clock/r_reg_23> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clock/r_reg_24> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clock/r_reg_25> of sequential type is unconnected in block <Top>.
+WARNING:Xst:2677 - Node <clock/r_reg_26> of sequential type is unconnected in block <Top>.
+WARNING:Xst:1989 - Unit <Top>: instances <td/hi0>, <sd/DC> of unit <DivClock> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Top>: instances <td/hi0>, <sc/hi1> of unit <DivClock> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Top>: instances <td/hi0>, <st/x1hz> of unit <DivClock> are equivalent, second instance is removed
+
+Optimizing unit <Top> ...
+
+Optimizing unit <TM1638> ...
+
+Optimizing unit <DivClock> ...
+
+Optimizing unit <dich> ...
+
+Optimizing unit <LedSangDan> ...
+
+Optimizing unit <sangdon> ...
+
+Optimizing unit <sangdich> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Top, actual ratio is 6.
+
+Final Macro Processing ...
+
+Processing Unit <Top> :
+	Found 4-bit shift register for signal <tm/command3_0>.
+INFO:Xst:741 - HDL ADVISOR - A 6-bit shift register was found for signal <tm/command2_0> and currently occupies 6 logic cells (3 slices). Removing the set/reset logic would take advantage of SRL16 (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+INFO:Xst:741 - HDL ADVISOR - A 6-bit shift register was found for signal <tm/command1_0> and currently occupies 6 logic cells (3 slices). Removing the set/reset logic would take advantage of SRL16 (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+Unit <Top> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 274
+ Flip-Flops                                            : 274
+# Shift Registers                                      : 1
+ 4-bit shift register                                  : 1
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Top.ngr
+Top Level Output File Name         : Top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 9
+
+Cell Usage :
+# BELS                             : 811
+#      GND                         : 1
+#      INV                         : 16
+#      LUT1                        : 70
+#      LUT2                        : 185
+#      LUT2_D                      : 2
+#      LUT2_L                      : 1
+#      LUT3                        : 38
+#      LUT3_L                      : 1
+#      LUT4                        : 186
+#      LUT4_D                      : 9
+#      LUT4_L                      : 2
+#      MUXCY                       : 206
+#      MUXF5                       : 9
+#      VCC                         : 1
+#      XORCY                       : 84
+# FlipFlops/Latches                : 287
+#      FD                          : 84
+#      FDC                         : 34
+#      FDE                         : 125
+#      FDP                         : 12
+#      FDRE                        : 16
+#      FDSE                        : 8
+#      LDCP                        : 8
+# Shift Registers                  : 1
+#      SRL16E                      : 1
+# Clock Buffers                    : 4
+#      BUFG                        : 2
+#      BUFGP                       : 2
+# IO Buffers                       : 7
+#      IBUF                        : 4
+#      OBUF                        : 3
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      275  out of   4656     5%  
+ Number of Slice Flip Flops:            287  out of   9312     3%  
+ Number of 4 input LUTs:                511  out of   9312     5%  
+    Number used as logic:               510
+    Number used as Shift registers:       1
+ Number of IOs:                           9
+ Number of bonded IOBs:                   9  out of    232     3%  
+ Number of GCLKs:                         4  out of     24    16%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk_50M                            | BUFGP                  | 53    |
+btn4                               | BUFGP                  | 8     |
+clock/r_reg_51                     | BUFG                   | 181   |
+td/hi0/clk_out1                    | BUFG                   | 46    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rs                                 | IBUF                   | 46    |
+G_0__and0000(G_0__and00002:O)      | NONE(G_0)              | 1     |
+G_0__and0001(G_0__and00011:O)      | NONE(G_0)              | 1     |
+G_1__and0000(G_1__and00001:O)      | NONE(G_1)              | 1     |
+G_1__and0001(G_1__and00011:O)      | NONE(G_1)              | 1     |
+G_2__and0000(G_2__and00001:O)      | NONE(G_2)              | 1     |
+G_2__and0001(G_2__and00011:O)      | NONE(G_2)              | 1     |
+G_3__and0000(G_3__and00001:O)      | NONE(G_3)              | 1     |
+G_3__and0001(G_3__and00011:O)      | NONE(G_3)              | 1     |
+G_4__and0000(G_4__and00001:O)      | NONE(G_4)              | 1     |
+G_4__and0001(G_4__and00011:O)      | NONE(G_4)              | 1     |
+G_5__and0000(G_5__and00001:O)      | NONE(G_5)              | 1     |
+G_5__and0001(G_5__and00011:O)      | NONE(G_5)              | 1     |
+G_6__and0000(G_6__and00001:O)      | NONE(G_6)              | 1     |
+G_6__and0001(G_6__and00011:O)      | NONE(G_6)              | 1     |
+G_7__and0000(G_7__and00001:O)      | NONE(G_7)              | 1     |
+G_7__and0001(G_7__and00011:O)      | NONE(G_7)              | 1     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 11.350ns (Maximum Frequency: 88.106MHz)
+   Minimum input arrival time before clock: 5.208ns
+   Maximum output required time after clock: 4.532ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_50M'
+  Clock period: 9.850ns (frequency: 101.523MHz)
+  Total number of paths / destination ports: 6370 / 54
+-------------------------------------------------------------------------
+Delay:               9.850ns (Levels of Logic = 50)
+  Source:            td/hi0/r_reg_1 (FF)
+  Destination:       td/hi0/clk_out (FF)
+  Source Clock:      clk_50M rising
+  Destination Clock: clk_50M rising
+
+  Data Path: td/hi0/r_reg_1 to td/hi0/clk_out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.591   0.622  td/hi0/r_reg_1 (td/hi0/r_reg_1)
+     LUT1:I0->O            1   0.704   0.000  td/hi0/Madd_r_next_addsub0000_cy<1>_rt (td/hi0/Madd_r_next_addsub0000_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  td/hi0/Madd_r_next_addsub0000_cy<1> (td/hi0/Madd_r_next_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<2> (td/hi0/Madd_r_next_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<3> (td/hi0/Madd_r_next_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<4> (td/hi0/Madd_r_next_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<5> (td/hi0/Madd_r_next_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<6> (td/hi0/Madd_r_next_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<7> (td/hi0/Madd_r_next_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<8> (td/hi0/Madd_r_next_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<9> (td/hi0/Madd_r_next_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<10> (td/hi0/Madd_r_next_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<11> (td/hi0/Madd_r_next_addsub0000_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<12> (td/hi0/Madd_r_next_addsub0000_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<13> (td/hi0/Madd_r_next_addsub0000_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<14> (td/hi0/Madd_r_next_addsub0000_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<15> (td/hi0/Madd_r_next_addsub0000_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<16> (td/hi0/Madd_r_next_addsub0000_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<17> (td/hi0/Madd_r_next_addsub0000_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<18> (td/hi0/Madd_r_next_addsub0000_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<19> (td/hi0/Madd_r_next_addsub0000_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<20> (td/hi0/Madd_r_next_addsub0000_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<21> (td/hi0/Madd_r_next_addsub0000_cy<21>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<22> (td/hi0/Madd_r_next_addsub0000_cy<22>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<23> (td/hi0/Madd_r_next_addsub0000_cy<23>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<24> (td/hi0/Madd_r_next_addsub0000_cy<24>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<25> (td/hi0/Madd_r_next_addsub0000_cy<25>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<26> (td/hi0/Madd_r_next_addsub0000_cy<26>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<27> (td/hi0/Madd_r_next_addsub0000_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<28> (td/hi0/Madd_r_next_addsub0000_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<29> (td/hi0/Madd_r_next_addsub0000_cy<29>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<30> (td/hi0/Madd_r_next_addsub0000_cy<30>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<31> (td/hi0/Madd_r_next_addsub0000_cy<31>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<32> (td/hi0/Madd_r_next_addsub0000_cy<32>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<33> (td/hi0/Madd_r_next_addsub0000_cy<33>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<34> (td/hi0/Madd_r_next_addsub0000_cy<34>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<35> (td/hi0/Madd_r_next_addsub0000_cy<35>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<36> (td/hi0/Madd_r_next_addsub0000_cy<36>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<37> (td/hi0/Madd_r_next_addsub0000_cy<37>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<38> (td/hi0/Madd_r_next_addsub0000_cy<38>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<39> (td/hi0/Madd_r_next_addsub0000_cy<39>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<40> (td/hi0/Madd_r_next_addsub0000_cy<40>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<41> (td/hi0/Madd_r_next_addsub0000_cy<41>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Madd_r_next_addsub0000_cy<42> (td/hi0/Madd_r_next_addsub0000_cy<42>)
+     XORCY:CI->O           1   0.804   0.499  td/hi0/Madd_r_next_addsub0000_xor<43> (td/hi0/r_next_addsub0000<43>)
+     LUT2:I1->O            2   0.704   0.451  td/hi0/r_next<43>1 (td/hi0/r_next<43>)
+     LUT4:I3->O            1   0.704   0.000  td/hi0/Mcompar_clk_out_cmp_eq0000_lut<8> (td/hi0/Mcompar_clk_out_cmp_eq0000_lut<8>)
+     MUXCY:S->O            1   0.464   0.000  td/hi0/Mcompar_clk_out_cmp_eq0000_cy<8> (td/hi0/Mcompar_clk_out_cmp_eq0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Mcompar_clk_out_cmp_eq0000_cy<9> (td/hi0/Mcompar_clk_out_cmp_eq0000_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  td/hi0/Mcompar_clk_out_cmp_eq0000_cy<10> (td/hi0/Mcompar_clk_out_cmp_eq0000_cy<10>)
+     MUXCY:CI->O           1   0.331   0.420  td/hi0/Mcompar_clk_out_cmp_eq0000_cy<11> (td/hi0/Mcompar_clk_out_cmp_eq0000_cy<11>)
+     FDE:CE                    0.555          td/hi0/clk_out
+    ----------------------------------------
+    Total                      9.850ns (7.858ns logic, 1.992ns route)
+                                       (79.8% logic, 20.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock/r_reg_51'
+  Clock period: 11.350ns (frequency: 88.106MHz)
+  Total number of paths / destination ports: 159688 / 350
+-------------------------------------------------------------------------
+Delay:               11.350ns (Levels of Logic = 44)
+  Source:            tm/cs_0 (FF)
+  Destination:       tm/cs_31 (FF)
+  Source Clock:      clock/r_reg_51 rising
+  Destination Clock: clock/r_reg_51 rising
+
+  Data Path: tm/cs_0 to tm/cs_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              16   0.591   1.209  tm/cs_0 (tm/cs_0)
+     LUT2:I0->O            1   0.704   0.000  tm/Mcompar_old_cs_10_cmp_ge0000_lut<0> (tm/Mcompar_old_cs_10_cmp_ge0000_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  tm/Mcompar_old_cs_10_cmp_ge0000_cy<0>_0 (tm/Mcompar_old_cs_10_cmp_ge0000_cy<0>1)
+     MUXCY:CI->O           1   0.059   0.000  tm/Mcompar_old_cs_10_cmp_ge0000_cy<1>_0 (tm/Mcompar_old_cs_10_cmp_ge0000_cy<1>1)
+     MUXCY:CI->O           1   0.059   0.000  tm/Mcompar_old_cs_10_cmp_ge0000_cy<2>_0 (tm/Mcompar_old_cs_10_cmp_ge0000_cy<2>1)
+     MUXCY:CI->O           1   0.059   0.000  tm/Mcompar_old_cs_10_cmp_ge0000_cy<3>_0 (tm/Mcompar_old_cs_10_cmp_ge0000_cy<3>1)
+     MUXCY:CI->O           1   0.059   0.000  tm/Mcompar_old_cs_10_cmp_ge0000_cy<4>_0 (tm/Mcompar_old_cs_10_cmp_ge0000_cy<4>1)
+     MUXCY:CI->O           1   0.059   0.000  tm/Mcompar_old_cs_10_cmp_ge0000_cy<5>_0 (tm/Mcompar_old_cs_10_cmp_ge0000_cy<5>1)
+     MUXCY:CI->O           1   0.059   0.000  tm/Mcompar_old_cs_10_cmp_ge0000_cy<6>_0 (tm/Mcompar_old_cs_10_cmp_ge0000_cy<6>1)
+     MUXCY:CI->O           1   0.059   0.000  tm/Mcompar_old_cs_10_cmp_ge0000_cy<7>_0 (tm/Mcompar_old_cs_10_cmp_ge0000_cy<7>1)
+     MUXCY:CI->O           1   0.059   0.000  tm/Mcompar_old_cs_10_cmp_ge0000_cy<8>_0 (tm/Mcompar_old_cs_10_cmp_ge0000_cy<8>1)
+     MUXCY:CI->O           1   0.059   0.000  tm/Mcompar_old_cs_10_cmp_ge0000_cy<9>_0 (tm/Mcompar_old_cs_10_cmp_ge0000_cy<9>)
+     MUXCY:CI->O           4   0.459   0.762  tm/Mcompar_old_cs_10_cmp_ge0000_cy<10> (tm/old_cs_10_cmp_ge0001)
+     LUT2:I0->O            7   0.704   0.712  tm/dio_not0001112 (tm/old_cs_10_and0001)
+     LUT4:I3->O            5   0.704   0.637  tm/_old_cs_10<10>1139_SW1 (N61)
+     LUT4:I3->O            1   0.704   0.000  tm/_old_cs_10<3>1 (tm/_old_cs_10<3>)
+     MUXCY:S->O            1   0.464   0.000  tm/Madd_cs_add0000_cy<3> (tm/Madd_cs_add0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  tm/Madd_cs_add0000_cy<4> (tm/Madd_cs_add0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  tm/Madd_cs_add0000_cy<5> (tm/Madd_cs_add0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  tm/Madd_cs_add0000_cy<6> (tm/Madd_cs_add0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  tm/Madd_cs_add0000_cy<7> (tm/Madd_cs_add0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  tm/Madd_cs_add0000_cy<8> (tm/Madd_cs_add0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  tm/Madd_cs_add0000_cy<9> (tm/Madd_cs_add0000_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  tm/Madd_cs_add0000_cy<10> (tm/Madd_cs_add0000_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  tm/Madd_cs_add0000_cy<11> (tm/Madd_cs_add0000_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  tm/Madd_cs_add0000_cy<12> (tm/Madd_cs_add0000_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  tm/Madd_cs_add0000_cy<13> (tm/Madd_cs_add0000_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  tm/Madd_cs_add0000_cy<14> (tm/Madd_cs_add0000_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  tm/Madd_cs_add0000_cy<15> (tm/Madd_cs_add0000_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  tm/Madd_cs_add0000_cy<16> (tm/Madd_cs_add0000_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  tm/Madd_cs_add0000_cy<17> (tm/Madd_cs_add0000_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  tm/Madd_cs_add0000_cy<18> (tm/Madd_cs_add0000_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  tm/Madd_cs_add0000_cy<19> (tm/Madd_cs_add0000_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  tm/Madd_cs_add0000_cy<20> (tm/Madd_cs_add0000_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  tm/Madd_cs_add0000_cy<21> (tm/Madd_cs_add0000_cy<21>)
+     MUXCY:CI->O           1   0.059   0.000  tm/Madd_cs_add0000_cy<22> (tm/Madd_cs_add0000_cy<22>)
+     MUXCY:CI->O           1   0.059   0.000  tm/Madd_cs_add0000_cy<23> (tm/Madd_cs_add0000_cy<23>)
+     MUXCY:CI->O           1   0.059   0.000  tm/Madd_cs_add0000_cy<24> (tm/Madd_cs_add0000_cy<24>)
+     MUXCY:CI->O           1   0.059   0.000  tm/Madd_cs_add0000_cy<25> (tm/Madd_cs_add0000_cy<25>)
+     MUXCY:CI->O           1   0.059   0.000  tm/Madd_cs_add0000_cy<26> (tm/Madd_cs_add0000_cy<26>)
+     MUXCY:CI->O           1   0.059   0.000  tm/Madd_cs_add0000_cy<27> (tm/Madd_cs_add0000_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  tm/Madd_cs_add0000_cy<28> (tm/Madd_cs_add0000_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  tm/Madd_cs_add0000_cy<29> (tm/Madd_cs_add0000_cy<29>)
+     MUXCY:CI->O           0   0.059   0.000  tm/Madd_cs_add0000_cy<30> (tm/Madd_cs_add0000_cy<30>)
+     XORCY:CI->O           1   0.804   0.000  tm/Madd_cs_add0000_xor<31> (tm/cs_add0000<31>)
+     FD:D                      0.308          tm/cs_31
+    ----------------------------------------
+    Total                     11.350ns (8.030ns logic, 3.320ns route)
+                                       (70.7% logic, 29.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'td/hi0/clk_out1'
+  Clock period: 6.643ns (frequency: 150.534MHz)
+  Total number of paths / destination ports: 563 / 46
+-------------------------------------------------------------------------
+Delay:               6.643ns (Levels of Logic = 4)
+  Source:            sc/hi2/v_r_3 (FF)
+  Destination:       sc/hi2/z_r_6 (FF)
+  Source Clock:      td/hi0/clk_out1 rising
+  Destination Clock: td/hi0/clk_out1 rising
+
+  Data Path: sc/hi2/v_r_3 to sc/hi2/z_r_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              4   0.591   0.762  sc/hi2/v_r_3 (sc/hi2/v_r_3)
+     LUT4_D:I0->O          3   0.704   0.706  sc/hi2/z_n_cmp_eq000012 (sc/hi2/z_n_cmp_eq000012)
+     LUT2_D:I0->O          6   0.704   0.748  sc/hi2/z_n_cmp_eq000026 (sc/hi2/z_n_cmp_eq0000)
+     LUT4_D:I1->O          7   0.704   0.712  sc/hi2/z_n<0>3 (sc/hi2/N3)
+     LUT4:I3->O            1   0.704   0.000  sc/hi2/z_n<6>1 (sc/hi2/z_n<6>)
+     FDC:D                     0.308          sc/hi2/z_r_6
+    ----------------------------------------
+    Total                      6.643ns (3.715ns logic, 2.928ns route)
+                                       (55.9% logic, 44.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'btn4'
+  Total number of paths / destination ports: 48 / 8
+-------------------------------------------------------------------------
+Offset:              5.208ns (Levels of Logic = 4)
+  Source:            btn3 (PAD)
+  Destination:       G_0 (LATCH)
+  Destination Clock: btn4 falling
+
+  Data Path: btn3 to G_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            24   1.218   1.427  btn3_IBUF (btn3_IBUF)
+     LUT4:I0->O            2   0.704   0.526  G_mux0000<7>35_SW0 (N91)
+     LUT4:I1->O            1   0.704   0.000  G_mux0000<7>422 (G_mux0000<7>421)
+     MUXF5:I0->O           3   0.321   0.000  G_mux0000<7>42_f5 (G_mux0000<7>)
+     LDCP:D                    0.308          G_7
+    ----------------------------------------
+    Total                      5.208ns (3.255ns logic, 1.953ns route)
+                                       (62.5% logic, 37.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock/r_reg_51'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              4.532ns (Levels of Logic = 1)
+  Source:            tm/clk (FF)
+  Destination:       clk (PAD)
+  Source Clock:      clock/r_reg_51 rising
+
+  Data Path: tm/clk to clk
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              6   0.591   0.669  tm/clk (tm/clk)
+     OBUF:I->O                 3.272          clk_OBUF (clk)
+    ----------------------------------------
+    Total                      4.532ns (3.863ns logic, 0.669ns route)
+                                       (85.2% logic, 14.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.88 secs
+ 
+--> 
+
+Total memory usage is 4514104 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   50 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

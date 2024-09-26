@@ -1,0 +1,5 @@
+set -tmpdir "C:/TTVM/KT2_Du/xst/projnav.tmp"
+set -xsthdpdir "C:/TTVM/KT2_Du/xst"
+elaborate
+-ifn sangdan_tatdan2led.prj
+-ifmt mixed

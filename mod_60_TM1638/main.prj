@@ -1,0 +1,6 @@
+verilog work "tao_xung1hz.v"
+verilog work "mod_60.v"
+verilog work "TM1638.v"
+verilog work "mod60_top.v"
+verilog work "ClockDiv.v"
+verilog work "main.v"

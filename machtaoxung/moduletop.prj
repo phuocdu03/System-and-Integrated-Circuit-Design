@@ -1,0 +1,4 @@
+verilog work "taoxung.v"
+verilog work "machtaooxung.v"
+verilog work "machdemlen4bit.v"
+verilog work "moduletop.v"

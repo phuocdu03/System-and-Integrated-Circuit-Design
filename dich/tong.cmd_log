@@ -1,0 +1,42 @@
+xst -intstyle ise -ifn "D:/TTVM/dich/tong.xst" -ofn "D:/TTVM/dich/tong.syr" 
+xst -intstyle ise -ifn "D:/TTVM/dich/tong.xst" -ofn "D:/TTVM/dich/tong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 tong.ngc tong.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o tong_map.ncd tong.ngd tong.pcf 
+par -w -intstyle ise -ol high -t 1 tong_map.ncd tong.ncd tong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml tong.twx tong.ncd -o tong.twr tong.pcf 
+bitgen -intstyle ise -f tong.ut tong.ncd 
+xst -intstyle ise -ifn "D:/TTVM/dich/tong.xst" -ofn "D:/TTVM/dich/tong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hihihih.ucf -p xc3s500e-fg320-4 tong.ngc tong.ngd  
+xst -intstyle ise -ifn "D:/TTVM/dich/tong.xst" -ofn "D:/TTVM/dich/tong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hihihih.ucf -p xc3s500e-fg320-4 tong.ngc tong.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o tong_map.ncd tong.ngd tong.pcf 
+par -w -intstyle ise -ol high -t 1 tong_map.ncd tong.ncd tong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml tong.twx tong.ncd -o tong.twr tong.pcf -ucf hihihih.ucf 
+bitgen -intstyle ise -f tong.ut tong.ncd 
+xst -intstyle ise -ifn "/home/ise/TTVM/dich/tong.xst" -ofn "/home/ise/TTVM/dich/tong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hihihih.ucf -p xc3s500e-fg320-4 tong.ngc tong.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o tong_map.ncd tong.ngd tong.pcf 
+par -w -intstyle ise -ol high -t 1 tong_map.ncd tong.ncd tong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml tong.twx tong.ncd -o tong.twr tong.pcf -ucf hihihih.ucf 
+bitgen -intstyle ise -f tong.ut tong.ncd 
+xst -intstyle ise -ifn "/home/ise/TTVM/dich/tong.xst" -ofn "/home/ise/TTVM/dich/tong.syr" 
+xst -intstyle ise -ifn "/home/ise/TTVM/dich/tong.xst" -ofn "/home/ise/TTVM/dich/tong.syr" 
+xst -intstyle ise -ifn "/home/ise/TTVM/dich/tong.xst" -ofn "/home/ise/TTVM/dich/tong.syr" 
+xst -intstyle ise -ifn "/home/ise/TTVM/dich/tong.xst" -ofn "/home/ise/TTVM/dich/tong.syr" 
+xst -intstyle ise -ifn "/home/ise/TTVM/dich/tong.xst" -ofn "/home/ise/TTVM/dich/tong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hihihih.ucf -p xc3s500e-fg320-4 tong.ngc tong.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o tong_map.ncd tong.ngd tong.pcf 
+par -w -intstyle ise -ol high -t 1 tong_map.ncd tong.ncd tong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml tong.twx tong.ncd -o tong.twr tong.pcf -ucf hihihih.ucf 
+bitgen -intstyle ise -f tong.ut tong.ncd 
+xst -intstyle ise -ifn "/home/ise/TTVM/dich/tong.xst" -ofn "/home/ise/TTVM/dich/tong.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hihihih.ucf -p xc3s500e-fg320-4 tong.ngc tong.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o tong_map.ncd tong.ngd tong.pcf 
+par -w -intstyle ise -ol high -t 1 tong_map.ncd tong.ncd tong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml tong.twx tong.ncd -o tong.twr tong.pcf -ucf hihihih.ucf 
+bitgen -intstyle ise -f tong.ut tong.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hihihih.ucf -p xc3s500e-fg320-4 tong.ngc tong.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o tong_map.ncd tong.ngd tong.pcf 
+par -w -intstyle ise -ol high -t 1 tong_map.ncd tong.ncd tong.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml tong.twx tong.ncd -o tong.twr tong.pcf -ucf hihihih.ucf 
+bitgen -intstyle ise -f tong.ut tong.ncd 

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\TTVM\Kit_1638_sang_chay\top.ncd
+OUTFILE=C:\TTVM\Kit_1638_sang_chay\top.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\TTVM\Kit_1638_sang_chay
+LICENSE=ISE
+USER_INFO=212831385_0_0_961

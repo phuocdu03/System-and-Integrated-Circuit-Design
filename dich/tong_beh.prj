@@ -1,0 +1,4 @@
+verilog work "dich.v"
+verilog work "chiaxung.v"
+verilog work "tong.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

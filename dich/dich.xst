@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/TTVM/dich/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/TTVM/dich/xst"
+elaborate
+-ifn dich.prj
+-ifmt mixed

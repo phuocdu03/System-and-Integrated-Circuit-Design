@@ -1,0 +1,39 @@
+xst -intstyle ise -ifn "C:/TTVM/half_adder/Half_Adder.xst" -ofn "C:/TTVM/half_adder/Half_Adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Half_Adder.ngc Half_Adder.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Half_Adder_map.ncd Half_Adder.ngd Half_Adder.pcf 
+par -w -intstyle ise -ol high -t 1 Half_Adder_map.ncd Half_Adder.ncd Half_Adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Half_Adder.twx Half_Adder.ncd -o Half_Adder.twr Half_Adder.pcf 
+xst -intstyle ise -ifn "C:/TTVM/half_adder/Half_Adder.xst" -ofn "C:/TTVM/half_adder/Half_Adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Half_Adder.ngc Half_Adder.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Half_Adder_map.ncd Half_Adder.ngd Half_Adder.pcf 
+par -w -intstyle ise -ol high -t 1 Half_Adder_map.ncd Half_Adder.ncd Half_Adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Half_Adder.twx Half_Adder.ncd -o Half_Adder.twr Half_Adder.pcf 
+bitgen -intstyle ise -f Half_Adder.ut Half_Adder.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Half_Adder.ngc Half_Adder.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Half_Adder_map.ncd Half_Adder.ngd Half_Adder.pcf 
+par -w -intstyle ise -ol high -t 1 Half_Adder_map.ncd Half_Adder.ncd Half_Adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Half_Adder.twx Half_Adder.ncd -o Half_Adder.twr Half_Adder.pcf 
+bitgen -intstyle ise -f Half_Adder.ut Half_Adder.ncd 
+xst -intstyle ise -ifn "C:/TTVM/half_adder/Half_Adder.xst" -ofn "C:/TTVM/half_adder/Half_Adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo.ucf -p xc3s500e-fg320-4 Half_Adder.ngc Half_Adder.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Half_Adder_map.ncd Half_Adder.ngd Half_Adder.pcf 
+par -w -intstyle ise -ol high -t 1 Half_Adder_map.ncd Half_Adder.ncd Half_Adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Half_Adder.twx Half_Adder.ncd -o Half_Adder.twr Half_Adder.pcf -ucf demo.ucf 
+bitgen -intstyle ise -f Half_Adder.ut Half_Adder.ncd 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/translate -ofmt verilog -sim Half_Adder.ngd Half_Adder_translate.v 
+bitgen -intstyle ise -f Half_Adder.ut Half_Adder.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo.ucf -p xc3s500e-fg320-4 Half_Adder.ngc Half_Adder.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Half_Adder_map.ncd Half_Adder.ngd Half_Adder.pcf 
+par -w -intstyle ise -ol high -t 1 Half_Adder_map.ncd Half_Adder.ncd Half_Adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Half_Adder.twx Half_Adder.ncd -o Half_Adder.twr Half_Adder.pcf -ucf demo.ucf 
+bitgen -intstyle ise -f Half_Adder.ut Half_Adder.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo.ucf -p xc3s500e-fg320-4 Half_Adder.ngc Half_Adder.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Half_Adder_map.ncd Half_Adder.ngd Half_Adder.pcf 
+par -w -intstyle ise -ol high -t 1 Half_Adder_map.ncd Half_Adder.ncd Half_Adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Half_Adder.twx Half_Adder.ncd -o Half_Adder.twr Half_Adder.pcf -ucf demo.ucf 
+bitgen -intstyle ise -f Half_Adder.ut Half_Adder.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo.ucf -p xc3s500e-fg320-4 Half_Adder.ngc Half_Adder.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Half_Adder_map.ncd Half_Adder.ngd Half_Adder.pcf 
+par -w -intstyle ise -ol high -t 1 Half_Adder_map.ncd Half_Adder.ncd Half_Adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Half_Adder.twx Half_Adder.ncd -o Half_Adder.twr Half_Adder.pcf -ucf demo.ucf 
+bitgen -intstyle ise -f Half_Adder.ut Half_Adder.ncd 

@@ -1,0 +1,14 @@
+ISim log file
+Running: C:\TTVM\KT2_Du\test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/TTVM/KT2_Du/test_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING: File "C:/TTVM/KT2_Du/main.v" Line 28.  For instance uut/s2led/, width 8 of formal port led is not equal to width 1 of actual signal led1.
+WARNING: File "C:/TTVM/KT2_Du/main.v" Line 28.  For instance uut/s3led/, width 8 of formal port led is not equal to width 1 of actual signal led2.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 10.00s
+Stopped at time : 3426730730 ns : File "C:/TTVM/KT2_Du/test.v" Line 62

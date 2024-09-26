@@ -1,0 +1,6 @@
+verilog isim_temp "hi.v"
+verilog isim_temp "DEM.v"
+verilog isim_temp "chiaxung.v"
+verilog isim_temp "TONG.v"
+verilog isim_temp "test.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

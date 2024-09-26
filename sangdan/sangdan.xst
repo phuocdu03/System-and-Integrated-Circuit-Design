@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/TTVM/sangdan/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/TTVM/sangdan/xst"
+elaborate
+-ifn sangdan.prj
+-ifmt mixed

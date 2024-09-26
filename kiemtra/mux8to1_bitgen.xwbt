@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/TTVM/kiemtra/mux8to1.ncd
+OUTFILE=/home/ise/TTVM/kiemtra/mux8to1.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=/home/ise/TTVM/kiemtra
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

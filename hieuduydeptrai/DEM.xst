@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/TTVM/hieuduydeptrai/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/TTVM/hieuduydeptrai/xst"
+elaborate
+-ifn DEM.prj
+-ifmt mixed

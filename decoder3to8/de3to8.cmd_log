@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/TTVM/decoder3to8/de3to8.xst" -ofn "C:/TTVM/decoder3to8/de3to8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 de3to8.ngc de3to8.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o de3to8_map.ncd de3to8.ngd de3to8.pcf 
+par -w -intstyle ise -ol high -t 1 de3to8_map.ncd de3to8.ncd de3to8.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml de3to8.twx de3to8.ncd -o de3to8.twr de3to8.pcf 
+bitgen -intstyle ise -f de3to8.ut de3to8.ncd 
+xst -intstyle ise -ifn "C:/TTVM/decoder3to8/de3to8.xst" -ofn "C:/TTVM/decoder3to8/de3to8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kit.ucf -p xc3s500e-fg320-5 de3to8.ngc de3to8.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o de3to8_map.ncd de3to8.ngd de3to8.pcf 
+par -w -intstyle ise -ol high -t 1 de3to8_map.ncd de3to8.ncd de3to8.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml de3to8.twx de3to8.ncd -o de3to8.twr de3to8.pcf -ucf kit.ucf 
+bitgen -intstyle ise -f de3to8.ut de3to8.ncd 

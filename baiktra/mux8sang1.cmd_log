@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "/home/ise/TTVM/baiktra/mux8sang1.xst" -ofn "/home/ise/TTVM/baiktra/mux8sang1.syr" 
+xst -intstyle ise -ifn "/home/ise/TTVM/baiktra/mux8sang1.xst" -ofn "/home/ise/TTVM/baiktra/mux8sang1.syr" 
+vhdtdtfi -lib work /home/ise/TTVM/baiktra/mux8sang1.v -lang verilog -prj baiktra -o mux8sang1.spl -module mux8sang1 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e mux8sang1.spl /home/ise/TTVM/baiktra/mux8sang1.sym 
+xst -intstyle ise -ifn "/home/ise/TTVM/baiktra/mux8sang1.xst" -ofn "/home/ise/TTVM/baiktra/mux8sang1.syr" 
+xst -intstyle ise -ifn "/home/ise/TTVM/baiktra/mux8sang1.xst" -ofn "/home/ise/TTVM/baiktra/mux8sang1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 mux8sang1.ngc mux8sang1.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o mux8sang1_map.ncd mux8sang1.ngd mux8sang1.pcf 
+par -w -intstyle ise -ol high -t 1 mux8sang1_map.ncd mux8sang1.ncd mux8sang1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mux8sang1.twx mux8sang1.ncd -o mux8sang1.twr mux8sang1.pcf 
+xst -intstyle ise -ifn "/home/ise/TTVM/baiktra/mux8sang1.xst" -ofn "/home/ise/TTVM/baiktra/mux8sang1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 mux8sang1.ngc mux8sang1.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o mux8sang1_map.ncd mux8sang1.ngd mux8sang1.pcf 
+par -w -intstyle ise -ol high -t 1 mux8sang1_map.ncd mux8sang1.ncd mux8sang1.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml mux8sang1.twx mux8sang1.ncd -o mux8sang1.twr mux8sang1.pcf 

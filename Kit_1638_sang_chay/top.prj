@@ -1,0 +1,6 @@
+verilog work "xung_clk.v"
+verilog work "sangdich.v"
+verilog work "TM1638.v"
+verilog work "sang_dich.v"
+verilog work "ClockDiv.v"
+verilog work "top.v"

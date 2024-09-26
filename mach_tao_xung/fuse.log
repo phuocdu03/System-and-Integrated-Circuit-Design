@@ -1,0 +1,24 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/TTVM/mach_tao_xung/test_1_isim_beh.exe -prj C:/TTVM/mach_tao_xung/test_1_beh.prj work.test_1 work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/TTVM/mach_tao_xung/chia_xung.v" into library work
+Analyzing Verilog file "C:/TTVM/mach_tao_xung/tao_xung.v" into library work
+Analyzing Verilog file "C:/TTVM/mach_tao_xung/test_1.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module chia_xung(M=100000000)
+Compiling module chia_xung
+Compiling module chia_xung(M=25000000)
+Compiling module tao_xung
+Compiling module test_1
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\test_1_isim_beh.exe.sim\libPortability.dll".
+Compiled 6 Verilog Units
+Built simulation executable C:/TTVM/mach_tao_xung/test_1_isim_beh.exe
+Fuse Memory Usage: 27416 KB
+Fuse CPU Usage: 265 ms

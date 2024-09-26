@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/ise/TTVM/mahoa8_3/TEST_isim_beh.exe" -prj "/home/ise/TTVM/mahoa8_3/TEST_beh.prj" "work.TEST" "work.glbl" 

@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/TTVM/led7doan/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/TTVM/led7doan/xst"
+elaborate
+-ifn TM1638.prj
+-ifmt mixed

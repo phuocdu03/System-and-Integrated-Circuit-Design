@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "/home/ise/TTVM/machtaoxung/chiaxung.xst" -ofn "/home/ise/TTVM/machtaoxung/chiaxung.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kit.ucf -p xc3s500e-fg320-4 chiaxung.ngc chiaxung.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o chiaxung_map.ncd chiaxung.ngd chiaxung.pcf 
+par -w -intstyle ise -ol high -t 1 chiaxung_map.ncd chiaxung.ncd chiaxung.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml chiaxung.twx chiaxung.ncd -o chiaxung.twr chiaxung.pcf -ucf kit.ucf 
+bitgen -intstyle ise -f chiaxung.ut chiaxung.ncd 
+vhdtdtfi -lib work /home/ise/TTVM/machtaoxung/taoxung.v -lang verilog -prj machtaoxung -o chiaxung.spl -module chiaxung -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e chiaxung.spl /home/ise/TTVM/machtaoxung/chiaxung.sym 

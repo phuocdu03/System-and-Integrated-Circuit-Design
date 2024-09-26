@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/TTVM/KT1_DU/cong_2bit.xst" -ofn "C:/TTVM/KT1_DU/cong_2bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 cong_2bit.ngc cong_2bit.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o cong_2bit_map.ncd cong_2bit.ngd cong_2bit.pcf 
+par -w -intstyle ise -ol high -t 1 cong_2bit_map.ncd cong_2bit.ncd cong_2bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cong_2bit.twx cong_2bit.ncd -o cong_2bit.twr cong_2bit.pcf 

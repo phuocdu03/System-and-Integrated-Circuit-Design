@@ -1,0 +1,8 @@
+verilog work "LedTatDan.v"
+verilog work "DivClock.v"
+verilog work "dich.v"
+verilog work "TestTM1638.v"
+verilog work "Tat_Dan_Top.v"
+verilog work "TatDanTop.v"
+verilog work "ClockDiv.v"
+verilog work "TestTop.v"

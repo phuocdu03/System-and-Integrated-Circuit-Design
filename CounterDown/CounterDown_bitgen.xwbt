@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\FPGA\CounterDown\CounterDown.ncd
+OUTFILE=C:\FPGA\CounterDown\CounterDown.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\FPGA\CounterDown
+LICENSE=ISE
+USER_INFO=212708274_0_0_361

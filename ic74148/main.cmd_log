@@ -1,0 +1,72 @@
+xst -intstyle ise -ifn "C:/TTVM/ic74148/main.xst" -ofn "C:/TTVM/ic74148/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/TTVM/ic74148/main.xst" -ofn "C:/TTVM/ic74148/main.syr" 
+xst -intstyle ise -ifn "C:/TTVM/ic74148/main.xst" -ofn "C:/TTVM/ic74148/main.syr" 
+xst -intstyle ise -ifn "C:/TTVM/ic74148/main.xst" -ofn "C:/TTVM/ic74148/main.syr" 
+xst -intstyle ise -ifn "C:/TTVM/ic74148/main.xst" -ofn "C:/TTVM/ic74148/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/TTVM/ic74148/main.xst" -ofn "C:/TTVM/ic74148/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf 
+bitgen -intstyle ise -f main.ut main.ncd 
+netgen -intstyle ise -ar Structure -tm main -w -dir netgen/synthesis -ofmt vhdl -sim main.ngc main_synthesis.vhd 
+xst -intstyle ise -ifn "C:/TTVM/ic74148/main.xst" -ofn "C:/TTVM/ic74148/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf 
+bitgen -intstyle ise -f main.ut main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc chan.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+xst -intstyle ise -ifn "C:/TTVM/ic74148/main.xst" -ofn "C:/TTVM/ic74148/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc chan.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+xst -intstyle ise -ifn "C:/TTVM/ic74148/main.xst" -ofn "C:/TTVM/ic74148/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc chan.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf chan.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc chan.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf chan.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/TTVM/ic74148/main.xst" -ofn "C:/TTVM/ic74148/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc chan.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf chan.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc chan.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf chan.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/TTVM/ic74148/main.xst" -ofn "C:/TTVM/ic74148/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc chan.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf chan.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+netgen -intstyle ise -ar Structure -tm main -w -dir netgen/synthesis -ofmt vhdl -sim main.ngc main_synthesis.vhd 
+xst -intstyle ise -ifn "C:/TTVM/ic74148/main.xst" -ofn "C:/TTVM/ic74148/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc chan.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf chan.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/TTVM/ic74148/main.xst" -ofn "C:/TTVM/ic74148/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc chan.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf chan.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 

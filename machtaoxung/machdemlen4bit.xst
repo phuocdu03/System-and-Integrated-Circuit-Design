@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/TTVM/machtaoxung/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/TTVM/machtaoxung/xst"
+elaborate
+-ifn machdemlen4bit.prj
+-ifmt mixed

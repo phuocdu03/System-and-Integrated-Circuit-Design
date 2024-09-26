@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=C:\TTVM\half_adder\impact.xsl
+OUTFILE=C:\TTVM\half_adder\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=C:\TTVM\half_adder
+LICENSE=iMPACT
+USER_INFO=iMPACT

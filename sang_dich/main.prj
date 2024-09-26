@@ -1,0 +1,3 @@
+verilog work "xung_clk.v"
+verilog work "sangdich.v"
+verilog work "main.v"

@@ -1,0 +1,28 @@
+Command line:
+   tong_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  47458
+
+Tue Sep 26 07:35:13 2023
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 198.574 Meg
+
+ Total Signals          : 22
+ Total Nets             : 51
+ Total Signal Drivers   : 8
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 12
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 167
+
+ Total Simulation Time: 0.02 sec
+
+ Current Memory Usage: 276.173 Meg
+
+Tue Sep 26 07:35:20 2023
+

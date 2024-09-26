@@ -1,0 +1,28 @@
+xst -intstyle ise -ifn "D:/TTVM/Bai_2/bai_2.xst" -ofn "D:/TTVM/Bai_2/bai_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 bai_2.ngc bai_2.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o bai_2_map.ncd bai_2.ngd bai_2.pcf 
+par -w -intstyle ise -ol high -mt off bai_2_map.ncd bai_2.ncd bai_2.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml bai_2.twx bai_2.ncd -o bai_2.twr bai_2.pcf 
+xst -intstyle ise -ifn "D:/TTVM/Bai_2/bai_2.xst" -ofn "D:/TTVM/Bai_2/bai_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 bai_2.ngc bai_2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o bai_2_map.ncd bai_2.ngd bai_2.pcf 
+par -w -intstyle ise -ol high -t 1 bai_2_map.ncd bai_2.ncd bai_2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml bai_2.twx bai_2.ncd -o bai_2.twr bai_2.pcf 
+bitgen -intstyle ise -f bai_2.ut bai_2.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-4 bai_2.ngc bai_2.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-4 bai_2.ngc bai_2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o bai_2_map.ncd bai_2.ngd bai_2.pcf 
+par -w -intstyle ise -ol high -t 1 bai_2_map.ncd bai_2.ncd bai_2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml bai_2.twx bai_2.ncd -o bai_2.twr bai_2.pcf -ucf hi.ucf 
+bitgen -intstyle ise -f bai_2.ut bai_2.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-4 bai_2.ngc bai_2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o bai_2_map.ncd bai_2.ngd bai_2.pcf 
+par -w -intstyle ise -ol high -t 1 bai_2_map.ncd bai_2.ncd bai_2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml bai_2.twx bai_2.ncd -o bai_2.twr bai_2.pcf -ucf hi.ucf 
+bitgen -intstyle ise -f bai_2.ut bai_2.ncd 
+xst -intstyle ise -ifn "/home/ise/TTVM/Bai_2/bai_2.xst" -ofn "/home/ise/TTVM/Bai_2/bai_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-4 bai_2.ngc bai_2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o bai_2_map.ncd bai_2.ngd bai_2.pcf 
+par -w -intstyle ise -ol high -t 1 bai_2_map.ncd bai_2.ncd bai_2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml bai_2.twx bai_2.ncd -o bai_2.twr bai_2.pcf -ucf hi.ucf 
+bitgen -intstyle ise -f bai_2.ut bai_2.ncd 

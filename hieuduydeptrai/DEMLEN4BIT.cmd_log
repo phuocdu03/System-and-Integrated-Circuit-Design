@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/DEMLEN4BIT.xst" -ofn "D:/TTVM/DEMLEN4BIT/DEMLEN4BIT.syr" 
+xst -intstyle ise -ifn "D:/TTVM/DEMLEN4BIT/DEMLEN4BIT.xst" -ofn "D:/TTVM/DEMLEN4BIT/DEMLEN4BIT.syr" 

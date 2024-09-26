@@ -1,0 +1,18 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Nov 14 09:38:53 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "led1<0>" LOCATE = SITE "F12" LEVEL 1;
+COMP "led1<1>" LOCATE = SITE "E12" LEVEL 1;
+COMP "led1<2>" LOCATE = SITE "E11" LEVEL 1;
+COMP "led1<3>" LOCATE = SITE "F11" LEVEL 1;
+COMP "led2<0>" LOCATE = SITE "C11" LEVEL 1;
+COMP "led2<1>" LOCATE = SITE "D11" LEVEL 1;
+COMP "led2<2>" LOCATE = SITE "E9" LEVEL 1;
+COMP "led2<3>" LOCATE = SITE "F9" LEVEL 1;
+COMP "clki" LOCATE = SITE "C9" LEVEL 1;
+COMP "rs" LOCATE = SITE "L13" LEVEL 1;
+NET "clki_BUFGP/IBUFG" BEL "clki_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

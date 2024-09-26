@@ -1,0 +1,5 @@
+set -tmpdir "D:/TTVM/tatdan/xst/projnav.tmp"
+set -xsthdpdir "D:/TTVM/tatdan/xst"
+elaborate
+-ifn dich.prj
+-ifmt mixed

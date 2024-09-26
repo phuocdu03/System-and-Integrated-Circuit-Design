@@ -1,0 +1,5 @@
+set -tmpdir "D:/TTVM/DEMLEN4BIT/xst/projnav.tmp"
+set -xsthdpdir "D:/TTVM/DEMLEN4BIT/xst"
+elaborate
+-ifn chiaxung.prj
+-ifmt mixed

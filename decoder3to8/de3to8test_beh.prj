@@ -1,0 +1,3 @@
+verilog work "de3to8.v"
+verilog work "de3to8test.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

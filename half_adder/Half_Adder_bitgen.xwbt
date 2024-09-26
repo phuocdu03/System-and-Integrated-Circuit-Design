@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\TTVM\half_adder\Half_Adder.ncd
+OUTFILE=C:\TTVM\half_adder\Half_Adder.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\TTVM\half_adder
+LICENSE=ISE
+USER_INFO=212831385_0_0_961

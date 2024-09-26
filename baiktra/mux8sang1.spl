@@ -1,0 +1,7 @@
+[Inputs]
+=a[7:0]=
+[Outputs]
+[BiDir]
+[ATTRIBUTES]
+VeriModel mux8sang1
+

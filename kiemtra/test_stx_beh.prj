@@ -1,0 +1,3 @@
+verilog isim_temp "kiemtra.v"
+verilog isim_temp "test.v"
+verilog isim_temp "E:/HK5/TT_TKVM/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

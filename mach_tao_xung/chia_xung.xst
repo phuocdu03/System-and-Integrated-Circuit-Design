@@ -1,0 +1,5 @@
+set -tmpdir "C:/TTVM/mach_tao_xung/xst/projnav.tmp"
+set -xsthdpdir "C:/TTVM/mach_tao_xung/xst"
+elaborate
+-ifn chia_xung.prj
+-ifmt mixed

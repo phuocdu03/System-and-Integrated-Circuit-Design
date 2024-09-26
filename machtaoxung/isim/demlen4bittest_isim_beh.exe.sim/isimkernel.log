@@ -1,0 +1,10 @@
+Command line:
+   demlen4bittest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  41257
+
+Tue Sep 19 06:37:23 2023
+
+
+ Elaboration Time: 0.1 sec

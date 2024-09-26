@@ -1,0 +1,1 @@
+NET "clki" LOC = "C9" | IOSTANDARD = LVCMOS33;

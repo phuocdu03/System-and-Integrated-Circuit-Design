@@ -1,0 +1,4 @@
+verilog work "../ClockDivision/ClkDiv.v"
+verilog work "../Dem_len_4bit/Dem_len_4bit.v"
+verilog work "../ClockDivision/ClockDivision.v"
+verilog work "CounterTop.v"

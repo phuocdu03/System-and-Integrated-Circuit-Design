@@ -1,0 +1,21 @@
+xst -intstyle ise -ifn "C:/KyThuatmt/TTViMach/TTVM/IC74192/IC74192.xst" -ofn "C:/KyThuatmt/TTViMach/TTVM/IC74192/IC74192.syr" 
+xst -intstyle ise -ifn "C:/KyThuatmt/TTViMach/TTVM/IC74192/IC74192.xst" -ofn "C:/KyThuatmt/TTViMach/TTVM/IC74192/IC74192.syr" 
+xst -intstyle ise -ifn "C:/KyThuatmt/TTViMach/TTVM/IC74192/IC74192.xst" -ofn "C:/KyThuatmt/TTViMach/TTVM/IC74192/IC74192.syr" 
+xst -intstyle ise -ifn "C:/KyThuatmt/TTViMach/TTVM/IC74192/IC74192.xst" -ofn "C:/KyThuatmt/TTViMach/TTVM/IC74192/IC74192.syr" 
+vhdtdtfi -lib work C:/KyThuatmt/TTViMach/TTVM/IC74192/IC74192.v -lang verilog -prj IC74192 -o IC74192.spl -module IC74192 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e IC74192.spl C:/KyThuatmt/TTViMach/TTVM/IC74192/IC74192.sym 
+xst -intstyle ise -ifn "C:/KyThuatmt/TTViMach/TTVM/IC74192/IC74192.xst" -ofn "C:/KyThuatmt/TTViMach/TTVM/IC74192/IC74192.syr" 
+xst -intstyle ise -ifn "C:/KyThuatmt/TTViMach/TTVM/IC74192/IC74192.xst" -ofn "C:/KyThuatmt/TTViMach/TTVM/IC74192/IC74192.syr" 
+xst -intstyle ise -ifn "C:/KyThuatmt/TTViMach/TTVM/IC74192/IC74192.xst" -ofn "C:/KyThuatmt/TTViMach/TTVM/IC74192/IC74192.syr" 
+xst -intstyle ise -ifn "C:/KyThuatmt/TTViMach/TTVM/IC74192/IC74192.xst" -ofn "C:/KyThuatmt/TTViMach/TTVM/IC74192/IC74192.syr" 
+xst -intstyle ise -ifn "C:/KyThuatmt/TTViMach/TTVM/IC74192/IC74192.xst" -ofn "C:/KyThuatmt/TTViMach/TTVM/IC74192/IC74192.syr" 
+xst -intstyle ise -ifn "C:/KyThuatmt/TTViMach/TTVM/IC74192/IC74192.xst" -ofn "C:/KyThuatmt/TTViMach/TTVM/IC74192/IC74192.syr" 
+xst -intstyle ise -ifn "C:/KyThuatmt/TTViMach/TTVM/IC74192/IC74192.xst" -ofn "C:/KyThuatmt/TTViMach/TTVM/IC74192/IC74192.syr" 
+xst -intstyle ise -ifn "C:/KyThuatmt/TTViMach/TTVM/IC74192/IC74192.xst" -ofn "C:/KyThuatmt/TTViMach/TTVM/IC74192/IC74192.syr" 
+xst -intstyle ise -ifn "C:/TTVM/IC74192/IC74192.xst" -ofn "C:/TTVM/IC74192/IC74192.syr" 
+xst -intstyle ise -ifn "C:/TTVM/IC74192/IC74192.xst" -ofn "C:/TTVM/IC74192/IC74192.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 IC74192.ngc IC74192.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o IC74192_map.ncd IC74192.ngd IC74192.pcf 
+par -w -intstyle ise -ol high -t 1 IC74192_map.ncd IC74192.ncd IC74192.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml IC74192.twx IC74192.ncd -o IC74192.twr IC74192.pcf 
+bitgen -intstyle ise -f IC74192.ut IC74192.ncd 

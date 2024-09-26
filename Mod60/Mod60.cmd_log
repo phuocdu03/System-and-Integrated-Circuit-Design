@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "/home/ise/TTVM/Mod60/Mod60.xst" -ofn "/home/ise/TTVM/Mod60/Mod60.syr" 
+xst -intstyle ise -ifn "/home/ise/TTVM/Mod60/Mod60.xst" -ofn "/home/ise/TTVM/Mod60/Mod60.syr" 
+xst -intstyle ise -ifn "C:/TTVM/Mod60/Mod60.xst" -ofn "C:/TTVM/Mod60/Mod60.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kit.ucf -p xc3s500e-fg320-4 Mod60.ngc Mod60.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Mod60_map.ncd Mod60.ngd Mod60.pcf 
+par -w -intstyle ise -ol high -t 1 Mod60_map.ncd Mod60.ncd Mod60.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Mod60.twx Mod60.ncd -o Mod60.twr Mod60.pcf -ucf kit.ucf 
+bitgen -intstyle ise -f Mod60.ut Mod60.ncd 
+xst -intstyle ise -ifn "C:/TTVM/Mod60/Mod60.xst" -ofn "C:/TTVM/Mod60/Mod60.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kit.ucf -p xc3s500e-fg320-4 Mod60.ngc Mod60.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Mod60_map.ncd Mod60.ngd Mod60.pcf 
+par -w -intstyle ise -ol high -t 1 Mod60_map.ncd Mod60.ncd Mod60.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Mod60.twx Mod60.ncd -o Mod60.twr Mod60.pcf -ucf kit.ucf 
+bitgen -intstyle ise -f Mod60.ut Mod60.ncd 

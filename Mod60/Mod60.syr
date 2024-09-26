@@ -1,0 +1,460 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Reading design: Mod60.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Mod60.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Mod60"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : Mod60
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "mod_60.v" in library work
+Compiling verilog file "chiaxung.v" in library work
+Module <mod_60> compiled
+Compiling verilog file "top60.v" in library work
+Module <xung1hz> compiled
+Module <Mod60> compiled
+No errors in compilation
+Analysis of file <"Mod60.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <Mod60> in library <work>.
+
+Analyzing hierarchy for module <xung1hz> in library <work>.
+
+Analyzing hierarchy for module <mod_60> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <Mod60>.
+Module <Mod60> is correct for synthesis.
+ 
+Analyzing module <xung1hz> in library <work>.
+Module <xung1hz> is correct for synthesis.
+ 
+Analyzing module <mod_60> in library <work>.
+Module <mod_60> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <xung1hz>.
+    Related source file is "chiaxung.v".
+    Found 1-bit register for signal <clko>.
+    Found 41-bit comparator equal for signal <clko$cmp_eq0000> created at line 34.
+    Found 41-bit adder for signal <r_next$addsub0000> created at line 36.
+    Found 41-bit comparator equal for signal <r_next$cmp_eq0000> created at line 36.
+    Found 41-bit register for signal <r_reg>.
+    Summary:
+	inferred  42 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+Unit <xung1hz> synthesized.
+
+
+Synthesizing Unit <mod_60>.
+    Related source file is "mod_60.v".
+WARNING:Xst:647 - Input <s0> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 4-bit up counter for signal <chuc>.
+    Found 4-bit up counter for signal <donvi>.
+    Summary:
+	inferred   2 Counter(s).
+Unit <mod_60> synthesized.
+
+
+Synthesizing Unit <Mod60>.
+    Related source file is "top60.v".
+WARNING:Xst:1306 - Output <led1<3:1>> is never assigned.
+WARNING:Xst:1305 - Output <led1<0>> is never assigned. Tied to value 0.
+Unit <Mod60> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 41-bit adder                                          : 1
+# Counters                                             : 2
+ 4-bit up counter                                      : 2
+# Registers                                            : 2
+ 1-bit register                                        : 1
+ 41-bit register                                       : 1
+# Comparators                                          : 2
+ 41-bit comparator equal                               : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 41-bit adder                                          : 1
+# Counters                                             : 2
+ 4-bit up counter                                      : 2
+# Registers                                            : 42
+ Flip-Flops                                            : 42
+# Comparators                                          : 2
+ 41-bit comparator equal                               : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Mod60> ...
+
+Optimizing unit <xung1hz> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Mod60, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 46
+ Flip-Flops                                            : 46
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Mod60.ngr
+Top Level Output File Name         : Mod60
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 10
+
+Cell Usage :
+# BELS                             : 217
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 40
+#      LUT2                        : 45
+#      LUT3                        : 1
+#      LUT4                        : 22
+#      MUXCY                       : 62
+#      VCC                         : 1
+#      XORCY                       : 41
+# FlipFlops/Latches                : 46
+#      FD                          : 41
+#      FDC                         : 4
+#      FDE                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 6
+#      IBUF                        : 1
+#      OBUF                        : 5
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                       60  out of   4656     1%  
+ Number of Slice Flip Flops:             46  out of   9312     0%  
+ Number of 4 input LUTs:                112  out of   9312     1%  
+ Number of IOs:                          10
+ Number of bonded IOBs:                   7  out of    232     3%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+x1hz/clko                          | NONE(m60/donvi_0)      | 4     |
+clki                               | BUFGP                  | 42    |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rs                                 | IBUF                   | 4     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 9.592ns (Maximum Frequency: 104.254MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 4.496ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'x1hz/clko'
+  Clock period: 2.656ns (frequency: 376.506MHz)
+  Total number of paths / destination ports: 12 / 4
+-------------------------------------------------------------------------
+Delay:               2.656ns (Levels of Logic = 1)
+  Source:            m60/donvi_0 (FF)
+  Destination:       m60/donvi_0 (FF)
+  Source Clock:      x1hz/clko rising
+  Destination Clock: x1hz/clko rising
+
+  Data Path: m60/donvi_0 to m60/donvi_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              5   0.591   0.633  m60/donvi_0 (m60/donvi_0)
+     INV:I->O              1   0.704   0.420  m60/Mcount_donvi_xor<0>11_INV_0 (m60/Mcount_donvi)
+     FDC:D                     0.308          m60/donvi_0
+    ----------------------------------------
+    Total                      2.656ns (1.603ns logic, 1.053ns route)
+                                       (60.4% logic, 39.6% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clki'
+  Clock period: 9.592ns (frequency: 104.254MHz)
+  Total number of paths / destination ports: 4716 / 43
+-------------------------------------------------------------------------
+Delay:               9.592ns (Levels of Logic = 44)
+  Source:            x1hz/r_reg_1 (FF)
+  Destination:       x1hz/clko (FF)
+  Source Clock:      clki rising
+  Destination Clock: clki rising
+
+  Data Path: x1hz/r_reg_1 to x1hz/clko
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.591   0.622  x1hz/r_reg_1 (x1hz/r_reg_1)
+     LUT1:I0->O            1   0.704   0.000  x1hz/Madd_r_next_addsub0000_cy<1>_rt (x1hz/Madd_r_next_addsub0000_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  x1hz/Madd_r_next_addsub0000_cy<1> (x1hz/Madd_r_next_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<2> (x1hz/Madd_r_next_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<3> (x1hz/Madd_r_next_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<4> (x1hz/Madd_r_next_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<5> (x1hz/Madd_r_next_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<6> (x1hz/Madd_r_next_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<7> (x1hz/Madd_r_next_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<8> (x1hz/Madd_r_next_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<9> (x1hz/Madd_r_next_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<10> (x1hz/Madd_r_next_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<11> (x1hz/Madd_r_next_addsub0000_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<12> (x1hz/Madd_r_next_addsub0000_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<13> (x1hz/Madd_r_next_addsub0000_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<14> (x1hz/Madd_r_next_addsub0000_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<15> (x1hz/Madd_r_next_addsub0000_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<16> (x1hz/Madd_r_next_addsub0000_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<17> (x1hz/Madd_r_next_addsub0000_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<18> (x1hz/Madd_r_next_addsub0000_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<19> (x1hz/Madd_r_next_addsub0000_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<20> (x1hz/Madd_r_next_addsub0000_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<21> (x1hz/Madd_r_next_addsub0000_cy<21>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<22> (x1hz/Madd_r_next_addsub0000_cy<22>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<23> (x1hz/Madd_r_next_addsub0000_cy<23>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<24> (x1hz/Madd_r_next_addsub0000_cy<24>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<25> (x1hz/Madd_r_next_addsub0000_cy<25>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<26> (x1hz/Madd_r_next_addsub0000_cy<26>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<27> (x1hz/Madd_r_next_addsub0000_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<28> (x1hz/Madd_r_next_addsub0000_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<29> (x1hz/Madd_r_next_addsub0000_cy<29>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<30> (x1hz/Madd_r_next_addsub0000_cy<30>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<31> (x1hz/Madd_r_next_addsub0000_cy<31>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<32> (x1hz/Madd_r_next_addsub0000_cy<32>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<33> (x1hz/Madd_r_next_addsub0000_cy<33>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<34> (x1hz/Madd_r_next_addsub0000_cy<34>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Madd_r_next_addsub0000_cy<35> (x1hz/Madd_r_next_addsub0000_cy<35>)
+     XORCY:CI->O           2   0.804   0.622  x1hz/Madd_r_next_addsub0000_xor<36> (x1hz/r_next_addsub0000<36>)
+     LUT2:I0->O            1   0.704   0.424  x1hz/Mcompar_clko_cmp_eq0000_lut<6>_SW0 (N3)
+     LUT4:I3->O            1   0.704   0.000  x1hz/Mcompar_clko_cmp_eq0000_lut<6> (x1hz/Mcompar_clko_cmp_eq0000_lut<6>)
+     MUXCY:S->O            1   0.464   0.000  x1hz/Mcompar_clko_cmp_eq0000_cy<6> (x1hz/Mcompar_clko_cmp_eq0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Mcompar_clko_cmp_eq0000_cy<7> (x1hz/Mcompar_clko_cmp_eq0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Mcompar_clko_cmp_eq0000_cy<8> (x1hz/Mcompar_clko_cmp_eq0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  x1hz/Mcompar_clko_cmp_eq0000_cy<9> (x1hz/Mcompar_clko_cmp_eq0000_cy<9>)
+     MUXCY:CI->O           1   0.331   0.420  x1hz/Mcompar_clko_cmp_eq0000_cy<10> (x1hz/Mcompar_clko_cmp_eq0000_cy<10>)
+     FDE:CE                    0.555          x1hz/clko
+    ----------------------------------------
+    Total                      9.592ns (7.504ns logic, 2.088ns route)
+                                       (78.2% logic, 21.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'x1hz/clko'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              4.496ns (Levels of Logic = 1)
+  Source:            m60/donvi_0 (FF)
+  Destination:       led2<0> (PAD)
+  Source Clock:      x1hz/clko rising
+
+  Data Path: m60/donvi_0 to led2<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              5   0.591   0.633  m60/donvi_0 (m60/donvi_0)
+     OBUF:I->O                 3.272          led2_0_OBUF (led2<0>)
+    ----------------------------------------
+    Total                      4.496ns (3.863ns logic, 0.633ns route)
+                                       (85.9% logic, 14.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 2.42 secs
+ 
+--> 
+
+Total memory usage is 4497924 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

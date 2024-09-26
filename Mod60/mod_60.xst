@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/TTVM/Mod60/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/TTVM/Mod60/xst"
+elaborate
+-ifn mod_60.prj
+-ifmt mixed

@@ -1,0 +1,36 @@
+xst -intstyle ise -ifn "E:/HK5/TT_TKVM/Projects/kiemtra/mux8to1.xst" -ofn "E:/HK5/TT_TKVM/Projects/kiemtra/mux8to1.syr" 
+xst -intstyle ise -ifn "E:/HK5/TT_TKVM/Projects/kiemtra/mux8to1.xst" -ofn "E:/HK5/TT_TKVM/Projects/kiemtra/mux8to1.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim mux8to1.ngc mux8to1_synthesis.v 
+xst -intstyle ise -ifn "E:/HK5/TT_TKVM/Projects/kiemtra/mux8to1.xst" -ofn "E:/HK5/TT_TKVM/Projects/kiemtra/mux8to1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/HK5/TT_TKVM/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 mux8to1.ngc mux8to1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mux8to1_map.ncd mux8to1.ngd mux8to1.pcf 
+par -w -intstyle ise -ol high -t 1 mux8to1_map.ncd mux8to1.ncd mux8to1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mux8to1.twx mux8to1.ncd -o mux8to1.twr mux8to1.pcf 
+bitgen -intstyle ise -f mux8to1.ut mux8to1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc E:/HK5/TT_TKVM/kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 mux8to1.ngc mux8to1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mux8to1_map.ncd mux8to1.ngd mux8to1.pcf 
+par -w -intstyle ise -ol high -t 1 mux8to1_map.ncd mux8to1.ncd mux8to1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mux8to1.twx mux8to1.ncd -o mux8to1.twr mux8to1.pcf 
+bitgen -intstyle ise -f mux8to1.ut mux8to1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kit.ucf -p xc3s500e-fg320-4 mux8to1.ngc mux8to1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mux8to1_map.ncd mux8to1.ngd mux8to1.pcf 
+par -w -intstyle ise -ol high -t 1 mux8to1_map.ncd mux8to1.ncd mux8to1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mux8to1.twx mux8to1.ncd -o mux8to1.twr mux8to1.pcf -ucf kit.ucf 
+bitgen -intstyle ise -f mux8to1.ut mux8to1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kit.ucf -p xc3s500e-fg320-4 mux8to1.ngc mux8to1.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kit.ucf -p xc3s500e-fg320-4 mux8to1.ngc mux8to1.ngd  
+xst -intstyle ise -ifn "/home/ise/TTVM/kiemtra/mux8to1.xst" -ofn "/home/ise/TTVM/kiemtra/mux8to1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kit.ucf -p xc3s500e-fg320-4 mux8to1.ngc mux8to1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mux8to1_map.ncd mux8to1.ngd mux8to1.pcf 
+par -w -intstyle ise -ol high -t 1 mux8to1_map.ncd mux8to1.ncd mux8to1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mux8to1.twx mux8to1.ncd -o mux8to1.twr mux8to1.pcf -ucf kit.ucf 
+bitgen -intstyle ise -f mux8to1.ut mux8to1.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kit.ucf -p xc3s500e-fg320-4 mux8to1.ngc mux8to1.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mux8to1_map.ncd mux8to1.ngd mux8to1.pcf 
+par -w -intstyle ise -ol high -t 1 mux8to1_map.ncd mux8to1.ncd mux8to1.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mux8to1.twx mux8to1.ncd -o mux8to1.twr mux8to1.pcf -ucf kit.ucf 
+bitgen -intstyle ise -f mux8to1.ut mux8to1.ncd 
+xst -intstyle ise -ifn "/home/ise/TTVM/kiemtra/mux8to1.xst" -ofn "/home/ise/TTVM/kiemtra/mux8to1.syr" 
+xst -intstyle ise -ifn "/home/ise/TTVM/kiemtra/mux8to1.xst" -ofn "/home/ise/TTVM/kiemtra/mux8to1.syr" 
+xst -intstyle ise -ifn "/home/ise/TTVM/kiemtra/mux8to1.xst" -ofn "/home/ise/TTVM/kiemtra/mux8to1.syr" 
+bitgen -intstyle ise -f mux8to1.ut mux8to1.ncd 

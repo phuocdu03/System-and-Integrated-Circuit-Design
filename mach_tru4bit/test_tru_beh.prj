@@ -1,0 +1,4 @@
+verilog work "tru_1bit.v"
+verilog work "tru_4bit.v"
+verilog work "test_tru.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

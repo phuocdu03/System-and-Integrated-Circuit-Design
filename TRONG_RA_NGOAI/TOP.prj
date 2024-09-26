@@ -1,0 +1,5 @@
+verilog work "TRONGNGOAI.v"
+verilog work "TM1638.v"
+verilog work "ClockDiv.v"
+verilog work "ClockD.v"
+verilog work "TOP.v"

@@ -1,0 +1,4 @@
+MO ClkDiv NULL ../ClockDivision/ClkDiv.v vlg71/_clk_div.bin 1695093832
+MO Dem_xuong_4bit NULL ../Dem_xuong_4bit/Dem_xuong_4bit.v vlg50/_dem__xuong__4bit.bin 1695093832
+MO ClockDivision NULL ../ClockDivision/ClockDivision.v vlg6D/_clock_division.bin 1695093832
+MO CounterDown NULL CounterDown.v vlg3C/_counter_down.bin 1695093832

@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/TTVM/led7doancathodechung/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/TTVM/led7doancathodechung/xst"
+elaborate
+-ifn led7doan.prj
+-ifmt mixed

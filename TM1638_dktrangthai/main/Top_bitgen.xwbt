@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\TM1638_dktrangthai\main\Top.ncd
+OUTFILE=C:\TM1638_dktrangthai\main\Top.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\TM1638_dktrangthai\main
+LICENSE=ISE
+USER_INFO=212831385_0_0_961

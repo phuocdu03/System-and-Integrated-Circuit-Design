@@ -1,0 +1,8 @@
+verilog work "tao_xung1hz.v"
+verilog work "dem_phut.v"
+verilog work "dem_gio.v"
+verilog work "dem_giay.v"
+verilog work "TM1638.v"
+verilog work "Dong_ho.v"
+verilog work "ClockDiv.v"
+verilog work "main.v"

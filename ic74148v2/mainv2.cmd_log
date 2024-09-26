@@ -1,0 +1,23 @@
+xst -intstyle ise -ifn "C:/TTVM/ic74148v2/mainv2.xst" -ofn "C:/TTVM/ic74148v2/mainv2.syr" 
+xst -intstyle ise -ifn "C:/TTVM/ic74148v2/mainv2.xst" -ofn "C:/TTVM/ic74148v2/mainv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 mainv2.ngc mainv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainv2_map.ncd mainv2.ngd mainv2.pcf 
+par -w -intstyle ise -ol high -t 1 mainv2_map.ncd mainv2.ncd mainv2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainv2.twx mainv2.ncd -o mainv2.twr mainv2.pcf 
+xst -intstyle ise -ifn "C:/TTVM/ic74148v2/mainv2.xst" -ofn "C:/TTVM/ic74148v2/mainv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 mainv2.ngc mainv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainv2_map.ncd mainv2.ngd mainv2.pcf 
+par -w -intstyle ise -ol high -t 1 mainv2_map.ncd mainv2.ncd mainv2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainv2.twx mainv2.ncd -o mainv2.twr mainv2.pcf 
+bitgen -intstyle ise -f mainv2.ut mainv2.ncd 
+xst -intstyle ise -ifn "C:/TTVM/ic74148v2/mainv2.xst" -ofn "C:/TTVM/ic74148v2/mainv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 mainv2.ngc mainv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainv2_map.ncd mainv2.ngd mainv2.pcf 
+par -w -intstyle ise -ol high -t 1 mainv2_map.ncd mainv2.ncd mainv2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainv2.twx mainv2.ncd -o mainv2.twr mainv2.pcf 
+bitgen -intstyle ise -f mainv2.ut mainv2.ncd 
+xst -intstyle ise -ifn "C:/TTVM/ic74148v2/mainv2.xst" -ofn "C:/TTVM/ic74148v2/mainv2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 mainv2.ngc mainv2.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o mainv2_map.ncd mainv2.ngd mainv2.pcf 
+par -w -intstyle ise -ol high -t 1 mainv2_map.ncd mainv2.ncd mainv2.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml mainv2.twx mainv2.ncd -o mainv2.twr mainv2.pcf 

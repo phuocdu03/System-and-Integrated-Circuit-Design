@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "E:/HK5/TT_TKVM/Projects/kiemtra/test_isim_beh.exe" -prj "E:/HK5/TT_TKVM/Projects/kiemtra/test_beh.prj" "work.test" "work.glbl" 

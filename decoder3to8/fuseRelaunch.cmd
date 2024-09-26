@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/TTVM/decoder3to8/de3to8test_isim_beh.exe" -prj "C:/TTVM/decoder3to8/de3to8test_beh.prj" "work.de3to8test" "work.glbl" 

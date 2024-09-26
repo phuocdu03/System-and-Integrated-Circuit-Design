@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/FPGA/CounterDown/CounterDown.xst" -ofn "C:/FPGA/CounterDown/CounterDown.syr" 
+xst -intstyle ise -ifn "C:/FPGA/CounterDown/CounterDown.xst" -ofn "C:/FPGA/CounterDown/CounterDown.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc kit_Spartan3E_starter_iopin.ucf -p xc3s500e-fg320-4 CounterDown.ngc CounterDown.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o CounterDown_map.ncd CounterDown.ngd CounterDown.pcf 
+par -w -intstyle ise -ol high -t 1 CounterDown_map.ncd CounterDown.ncd CounterDown.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml CounterDown.twx CounterDown.ncd -o CounterDown.twr CounterDown.pcf -ucf kit_Spartan3E_starter_iopin.ucf 
+bitgen -intstyle ise -f CounterDown.ut CounterDown.ncd 

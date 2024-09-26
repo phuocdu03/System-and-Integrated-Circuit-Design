@@ -1,0 +1,407 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Reading design: IC74192.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "IC74192.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "IC74192"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : IC74192
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "IC74192.v" in library work
+Module <IC74192> compiled
+No errors in compilation
+Analysis of file <"IC74192.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <IC74192> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <IC74192>.
+WARNING:Xst:905 - "IC74192.v" line 16: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <r_next>, <D>
+WARNING:Xst:905 - "IC74192.v" line 39: One or more signals are missing in the sensitivity list of always block. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <r_reg>
+Module <IC74192> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <IC74192>.
+    Related source file is "IC74192.v".
+WARNING:Xst:646 - Signal <r_next> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:737 - Found 4-bit latch for signal <r_reg>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 4-bit subtractor for signal <mux0000$addsub0000> created at line 31.
+    Found 4-bit comparator lessequal for signal <mux0000$cmp_le0000> created at line 32.
+    Found 4-bit adder for signal <r_reg$addsub0000> created at line 27.
+    Found 4-bit comparator greatequal for signal <r_reg$cmp_ge0000> created at line 23.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+Unit <IC74192> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 4-bit adder                                           : 1
+ 4-bit subtractor                                      : 1
+# Latches                                              : 1
+ 4-bit latch                                           : 1
+# Comparators                                          : 2
+ 4-bit comparator greatequal                           : 1
+ 4-bit comparator lessequal                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 4-bit adder                                           : 1
+ 4-bit subtractor                                      : 1
+# Latches                                              : 1
+ 4-bit latch                                           : 1
+# Comparators                                          : 2
+ 4-bit comparator greatequal                           : 1
+ 4-bit comparator lessequal                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <IC74192> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block IC74192, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : IC74192.ngr
+Top Level Output File Name         : IC74192
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 14
+
+Cell Usage :
+# BELS                             : 27
+#      LUT2                        : 2
+#      LUT2_L                      : 1
+#      LUT3                        : 6
+#      LUT4                        : 12
+#      LUT4_L                      : 3
+#      MUXF5                       : 2
+#      VCC                         : 1
+# FlipFlops/Latches                : 4
+#      LDCP                        : 4
+# Clock Buffers                    : 1
+#      BUFG                        : 1
+# IO Buffers                       : 14
+#      IBUF                        : 8
+#      OBUF                        : 6
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                       14  out of   4656     0%  
+ Number of Slice Flip Flops:              4  out of   9312     0%  
+ Number of 4 input LUTs:                 24  out of   9312     0%  
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of    232     6%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+UP                                 | IBUF+BUFG              | 4     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-------------------------------------+------------------------+-------+
+Control Signal                       | Buffer(FF name)        | Load  |
+-------------------------------------+------------------------+-------+
+r_reg_0__and0000(r_reg_0__and00001:O)| NONE(r_reg_0)          | 1     |
+r_reg_0__or0000(r_reg_0__or00001:O)  | NONE(r_reg_0)          | 1     |
+r_reg_1__and0000(r_reg_1__and00001:O)| NONE(r_reg_1)          | 1     |
+r_reg_1__or0000(r_reg_1__or00001:O)  | NONE(r_reg_1)          | 1     |
+r_reg_2__and0000(r_reg_2__and00001:O)| NONE(r_reg_2)          | 1     |
+r_reg_2__or0000(r_reg_2__or00001:O)  | NONE(r_reg_2)          | 1     |
+r_reg_3__and0000(r_reg_3__and00001:O)| NONE(r_reg_3)          | 1     |
+r_reg_3__or0000(r_reg_3__or00001:O)  | NONE(r_reg_3)          | 1     |
+-------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 4.650ns (Maximum Frequency: 215.054MHz)
+   Minimum input arrival time before clock: 4.410ns
+   Maximum output required time after clock: 7.190ns
+   Maximum combinational path delay: 6.806ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'UP'
+  Clock period: 4.650ns (frequency: 215.054MHz)
+  Total number of paths / destination ports: 27 / 4
+-------------------------------------------------------------------------
+Delay:               4.650ns (Levels of Logic = 3)
+  Source:            r_reg_1 (LATCH)
+  Destination:       r_reg_2 (LATCH)
+  Source Clock:      UP falling
+  Destination Clock: UP falling
+
+  Data Path: r_reg_1 to r_reg_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDCP:G->Q             9   0.676   0.995  r_reg_1 (r_reg_1)
+     LUT2:I0->O            1   0.704   0.424  r_reg_mux0000<2>28_SW0 (N13)
+     LUT4_L:I3->LO         1   0.704   0.135  r_reg_mux0000<2>28 (r_reg_mux0000<2>28)
+     LUT4:I2->O            3   0.704   0.000  r_reg_mux0000<2>84 (r_reg_mux0000<2>)
+     LDCP:D                    0.308          r_reg_2
+    ----------------------------------------
+    Total                      4.650ns (3.096ns logic, 1.554ns route)
+                                       (66.6% logic, 33.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'UP'
+  Total number of paths / destination ports: 14 / 4
+-------------------------------------------------------------------------
+Offset:              4.410ns (Levels of Logic = 3)
+  Source:            DN (PAD)
+  Destination:       r_reg_2 (LATCH)
+  Destination Clock: UP falling
+
+  Data Path: DN to r_reg_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            15   1.218   1.052  DN_IBUF (DN_IBUF)
+     LUT4:I2->O            1   0.704   0.424  r_reg_mux0000<2>45 (r_reg_mux0000<2>45)
+     LUT4:I3->O            3   0.704   0.000  r_reg_mux0000<2>84 (r_reg_mux0000<2>)
+     LDCP:D                    0.308          r_reg_2
+    ----------------------------------------
+    Total                      4.410ns (2.934ns logic, 1.476ns route)
+                                       (66.5% logic, 33.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'UP'
+  Total number of paths / destination ports: 12 / 6
+-------------------------------------------------------------------------
+Offset:              7.190ns (Levels of Logic = 3)
+  Source:            r_reg_2 (LATCH)
+  Destination:       TCD (PAD)
+  Source Clock:      UP falling
+
+  Data Path: r_reg_2 to TCD
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDCP:G->Q             8   0.676   0.932  r_reg_2 (r_reg_2)
+     LUT3:I0->O            2   0.704   0.482  r_reg_cmp_ge000011 (Msub_mux0000_addsub0000_cy<2>)
+     LUT3:I2->O            1   0.704   0.420  TCD1 (TCD_OBUF)
+     OBUF:I->O                 3.272          TCD_OBUF (TCD)
+    ----------------------------------------
+    Total                      7.190ns (5.356ns logic, 1.834ns route)
+                                       (74.5% logic, 25.5% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Delay:               6.806ns (Levels of Logic = 3)
+  Source:            DN (PAD)
+  Destination:       TCD (PAD)
+
+  Data Path: DN to TCD
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            15   1.218   1.192  DN_IBUF (DN_IBUF)
+     LUT3:I0->O            1   0.704   0.420  TCD1 (TCD_OBUF)
+     OBUF:I->O                 3.272          TCD_OBUF (TCD)
+    ----------------------------------------
+    Total                      6.806ns (5.194ns logic, 1.612ns route)
+                                       (76.3% logic, 23.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.58 secs
+ 
+--> 
+
+Total memory usage is 4497960 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

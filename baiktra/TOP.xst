@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/TTVM/baiktra/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/TTVM/baiktra/xst"
+elaborate
+-ifn TOP.prj
+-ifmt mixed

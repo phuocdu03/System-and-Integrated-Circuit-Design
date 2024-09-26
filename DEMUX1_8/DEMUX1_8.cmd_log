@@ -1,0 +1,106 @@
+xst -intstyle ise -ifn "D:/TTVM/DEMUX1_8/DEMUX1_8.xst" -ofn "D:/TTVM/DEMUX1_8/DEMUX1_8.syr" 
+xst -intstyle ise -ifn "D:/TTVM/DEMUX1_8/DEMUX1_8.xst" -ofn "D:/TTVM/DEMUX1_8/DEMUX1_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 DEMUX1_8.ngc DEMUX1_8.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o DEMUX1_8_map.ncd DEMUX1_8.ngd DEMUX1_8.pcf 
+par -w -intstyle ise -ol high -t 1 DEMUX1_8_map.ncd DEMUX1_8.ncd DEMUX1_8.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEMUX1_8.twx DEMUX1_8.ncd -o DEMUX1_8.twr DEMUX1_8.pcf -ucf hi.ucf 
+bitgen -intstyle ise -f DEMUX1_8.ut DEMUX1_8.ncd 
+xst -intstyle ise -ifn "D:/TTVM/DEMUX1_8/DEMUX1_8.xst" -ofn "D:/TTVM/DEMUX1_8/DEMUX1_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 DEMUX1_8.ngc DEMUX1_8.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o DEMUX1_8_map.ncd DEMUX1_8.ngd DEMUX1_8.pcf 
+par -w -intstyle ise -ol high -t 1 DEMUX1_8_map.ncd DEMUX1_8.ncd DEMUX1_8.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEMUX1_8.twx DEMUX1_8.ncd -o DEMUX1_8.twr DEMUX1_8.pcf -ucf hi.ucf 
+bitgen -intstyle ise -f DEMUX1_8.ut DEMUX1_8.ncd 
+xst -intstyle ise -ifn "C:/TTVM/DEMUX1_8/DEMUX1_8.xst" -ofn "C:/TTVM/DEMUX1_8/DEMUX1_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 DEMUX1_8.ngc DEMUX1_8.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o DEMUX1_8_map.ncd DEMUX1_8.ngd DEMUX1_8.pcf 
+par -w -intstyle ise -ol high -t 1 DEMUX1_8_map.ncd DEMUX1_8.ncd DEMUX1_8.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEMUX1_8.twx DEMUX1_8.ncd -o DEMUX1_8.twr DEMUX1_8.pcf -ucf hi.ucf 
+bitgen -intstyle ise -f DEMUX1_8.ut DEMUX1_8.ncd 
+xst -intstyle ise -ifn "C:/TTVM/DEMUX1_8/DEMUX1_8.xst" -ofn "C:/TTVM/DEMUX1_8/DEMUX1_8.syr" 
+xst -intstyle ise -ifn "C:/TTVM/DEMUX1_8/DEMUX1_8.xst" -ofn "C:/TTVM/DEMUX1_8/DEMUX1_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 DEMUX1_8.ngc DEMUX1_8.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o DEMUX1_8_map.ncd DEMUX1_8.ngd DEMUX1_8.pcf 
+par -w -intstyle ise -ol high -t 1 DEMUX1_8_map.ncd DEMUX1_8.ncd DEMUX1_8.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEMUX1_8.twx DEMUX1_8.ncd -o DEMUX1_8.twr DEMUX1_8.pcf -ucf hi.ucf 
+bitgen -intstyle ise -f DEMUX1_8.ut DEMUX1_8.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 DEMUX1_8.ngc DEMUX1_8.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o DEMUX1_8_map.ncd DEMUX1_8.ngd DEMUX1_8.pcf 
+par -w -intstyle ise -ol high -t 1 DEMUX1_8_map.ncd DEMUX1_8.ncd DEMUX1_8.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEMUX1_8.twx DEMUX1_8.ncd -o DEMUX1_8.twr DEMUX1_8.pcf -ucf hi.ucf 
+bitgen -intstyle ise -f DEMUX1_8.ut DEMUX1_8.ncd 
+xst -intstyle ise -ifn "C:/TTVM/DEMUX1_8/DEMUX1_8.xst" -ofn "C:/TTVM/DEMUX1_8/DEMUX1_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 DEMUX1_8.ngc DEMUX1_8.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o DEMUX1_8_map.ncd DEMUX1_8.ngd DEMUX1_8.pcf 
+par -w -intstyle ise -ol high -t 1 DEMUX1_8_map.ncd DEMUX1_8.ncd DEMUX1_8.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEMUX1_8.twx DEMUX1_8.ncd -o DEMUX1_8.twr DEMUX1_8.pcf -ucf hi.ucf 
+bitgen -intstyle ise -f DEMUX1_8.ut DEMUX1_8.ncd 
+xst -intstyle ise -ifn "C:/TTVM/DEMUX1_8/DEMUX1_8.xst" -ofn "C:/TTVM/DEMUX1_8/DEMUX1_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 DEMUX1_8.ngc DEMUX1_8.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o DEMUX1_8_map.ncd DEMUX1_8.ngd DEMUX1_8.pcf 
+par -w -intstyle ise -ol high -t 1 DEMUX1_8_map.ncd DEMUX1_8.ncd DEMUX1_8.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEMUX1_8.twx DEMUX1_8.ncd -o DEMUX1_8.twr DEMUX1_8.pcf -ucf hi.ucf 
+bitgen -intstyle ise -f DEMUX1_8.ut DEMUX1_8.ncd 
+xst -intstyle ise -ifn "C:/TTVM/DEMUX1_8/DEMUX1_8.xst" -ofn "C:/TTVM/DEMUX1_8/DEMUX1_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 DEMUX1_8.ngc DEMUX1_8.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o DEMUX1_8_map.ncd DEMUX1_8.ngd DEMUX1_8.pcf 
+par -w -intstyle ise -ol high -t 1 DEMUX1_8_map.ncd DEMUX1_8.ncd DEMUX1_8.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEMUX1_8.twx DEMUX1_8.ncd -o DEMUX1_8.twr DEMUX1_8.pcf -ucf hi.ucf 
+bitgen -intstyle ise -f DEMUX1_8.ut DEMUX1_8.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 DEMUX1_8.ngc DEMUX1_8.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o DEMUX1_8_map.ncd DEMUX1_8.ngd DEMUX1_8.pcf 
+par -w -intstyle ise -ol high -t 1 DEMUX1_8_map.ncd DEMUX1_8.ncd DEMUX1_8.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEMUX1_8.twx DEMUX1_8.ncd -o DEMUX1_8.twr DEMUX1_8.pcf -ucf hi.ucf 
+bitgen -intstyle ise -f DEMUX1_8.ut DEMUX1_8.ncd 
+xst -intstyle ise -ifn "C:/TTVM/DEMUX1_8/DEMUX1_8.xst" -ofn "C:/TTVM/DEMUX1_8/DEMUX1_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 DEMUX1_8.ngc DEMUX1_8.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o DEMUX1_8_map.ncd DEMUX1_8.ngd DEMUX1_8.pcf 
+par -w -intstyle ise -ol high -t 1 DEMUX1_8_map.ncd DEMUX1_8.ncd DEMUX1_8.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEMUX1_8.twx DEMUX1_8.ncd -o DEMUX1_8.twr DEMUX1_8.pcf -ucf hi.ucf 
+bitgen -intstyle ise -f DEMUX1_8.ut DEMUX1_8.ncd 
+xst -intstyle ise -ifn "C:/TTVM/DEMUX1_8/DEMUX1_8.xst" -ofn "C:/TTVM/DEMUX1_8/DEMUX1_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 DEMUX1_8.ngc DEMUX1_8.ngd  
+xst -intstyle ise -ifn "C:/TTVM/DEMUX1_8/DEMUX1_8.xst" -ofn "C:/TTVM/DEMUX1_8/DEMUX1_8.syr" 
+xst -intstyle ise -ifn "C:/TTVM/DEMUX1_8/DEMUX1_8.xst" -ofn "C:/TTVM/DEMUX1_8/DEMUX1_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 DEMUX1_8.ngc DEMUX1_8.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o DEMUX1_8_map.ncd DEMUX1_8.ngd DEMUX1_8.pcf 
+par -w -intstyle ise -ol high -t 1 DEMUX1_8_map.ncd DEMUX1_8.ncd DEMUX1_8.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEMUX1_8.twx DEMUX1_8.ncd -o DEMUX1_8.twr DEMUX1_8.pcf -ucf hi.ucf 
+bitgen -intstyle ise -f DEMUX1_8.ut DEMUX1_8.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 DEMUX1_8.ngc DEMUX1_8.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o DEMUX1_8_map.ncd DEMUX1_8.ngd DEMUX1_8.pcf 
+par -w -intstyle ise -ol high -t 1 DEMUX1_8_map.ncd DEMUX1_8.ncd DEMUX1_8.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEMUX1_8.twx DEMUX1_8.ncd -o DEMUX1_8.twr DEMUX1_8.pcf -ucf hi.ucf 
+bitgen -intstyle ise -f DEMUX1_8.ut DEMUX1_8.ncd 
+xst -intstyle ise -ifn "C:/TTVM/DEMUX1_8/DEMUX1_8.xst" -ofn "C:/TTVM/DEMUX1_8/DEMUX1_8.syr" 
+xst -intstyle ise -ifn "C:/TTVM/DEMUX1_8/DEMUX1_8.xst" -ofn "C:/TTVM/DEMUX1_8/DEMUX1_8.syr" 
+xst -intstyle ise -ifn "C:/TTVM/DEMUX1_8/DEMUX1_8.xst" -ofn "C:/TTVM/DEMUX1_8/DEMUX1_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 DEMUX1_8.ngc DEMUX1_8.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o DEMUX1_8_map.ncd DEMUX1_8.ngd DEMUX1_8.pcf 
+par -w -intstyle ise -ol high -t 1 DEMUX1_8_map.ncd DEMUX1_8.ncd DEMUX1_8.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEMUX1_8.twx DEMUX1_8.ncd -o DEMUX1_8.twr DEMUX1_8.pcf -ucf hi.ucf 
+bitgen -intstyle ise -f DEMUX1_8.ut DEMUX1_8.ncd 
+xst -intstyle ise -ifn "C:/TTVM/DEMUX1_8/DEMUX1_8.xst" -ofn "C:/TTVM/DEMUX1_8/DEMUX1_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 DEMUX1_8.ngc DEMUX1_8.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o DEMUX1_8_map.ncd DEMUX1_8.ngd DEMUX1_8.pcf 
+par -w -intstyle ise -ol high -t 1 DEMUX1_8_map.ncd DEMUX1_8.ncd DEMUX1_8.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEMUX1_8.twx DEMUX1_8.ncd -o DEMUX1_8.twr DEMUX1_8.pcf -ucf hi.ucf 
+bitgen -intstyle ise -f DEMUX1_8.ut DEMUX1_8.ncd 
+xst -intstyle ise -ifn "C:/TTVM/DEMUX1_8/DEMUX1_8.xst" -ofn "C:/TTVM/DEMUX1_8/DEMUX1_8.syr" 
+xst -intstyle ise -ifn "C:/TTVM/DEMUX1_8/DEMUX1_8.xst" -ofn "C:/TTVM/DEMUX1_8/DEMUX1_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 DEMUX1_8.ngc DEMUX1_8.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o DEMUX1_8_map.ncd DEMUX1_8.ngd DEMUX1_8.pcf 
+par -w -intstyle ise -ol high -t 1 DEMUX1_8_map.ncd DEMUX1_8.ncd DEMUX1_8.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEMUX1_8.twx DEMUX1_8.ncd -o DEMUX1_8.twr DEMUX1_8.pcf -ucf hi.ucf 
+bitgen -intstyle ise -f DEMUX1_8.ut DEMUX1_8.ncd 
+xst -intstyle ise -ifn "C:/TTVM/DEMUX1_8/DEMUX1_8.xst" -ofn "C:/TTVM/DEMUX1_8/DEMUX1_8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 DEMUX1_8.ngc DEMUX1_8.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o DEMUX1_8_map.ncd DEMUX1_8.ngd DEMUX1_8.pcf 
+par -w -intstyle ise -ol high -t 1 DEMUX1_8_map.ncd DEMUX1_8.ncd DEMUX1_8.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEMUX1_8.twx DEMUX1_8.ncd -o DEMUX1_8.twr DEMUX1_8.pcf -ucf hi.ucf 
+bitgen -intstyle ise -f DEMUX1_8.ut DEMUX1_8.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc hi.ucf -p xc3s500e-fg320-5 DEMUX1_8.ngc DEMUX1_8.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o DEMUX1_8_map.ncd DEMUX1_8.ngd DEMUX1_8.pcf 
+par -w -intstyle ise -ol high -t 1 DEMUX1_8_map.ncd DEMUX1_8.ncd DEMUX1_8.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DEMUX1_8.twx DEMUX1_8.ncd -o DEMUX1_8.twr DEMUX1_8.pcf -ucf hi.ucf 
+bitgen -intstyle ise -f DEMUX1_8.ut DEMUX1_8.ncd 
